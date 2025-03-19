@@ -1,5 +1,8 @@
 # Schedule Optimizing Platform
 ## Installation
+
+(i need to do this later: pip freeze > requirements.txt)
+
 pip install -r requirements.txt
 
 ## Features: 
