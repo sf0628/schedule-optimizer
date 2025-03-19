@@ -8,4 +8,3 @@
 - [ ] provide suggestions for request (accept/reject, reinforcement)
 - [ ] connect to another persons calendar, given language input request, suggest times, dates, and alternatives
 - [ ] given patterns in calendar behavior, suggests future schedules (repeat dinners on fridays, etc)
-- [ ] 
