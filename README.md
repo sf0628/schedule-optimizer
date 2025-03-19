@@ -1,4 +1,6 @@
 # Schedule Optimizing Platform
+## Installation
+pip install -r requirements.txt
 
 ## Features: 
 - [ ] prompting that goes reads calendar information, generates specifications schedule (i.e. no morning classes)
