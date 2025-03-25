@@ -1,0 +1,161 @@
+{
+    "events": [
+      {
+        "id": "cs101",
+        "summary": "Introduction to Programming",
+        "location": "Room 104, Computer Science Building",
+        "description": "Python basics and problem-solving techniques.",
+        "start": {
+          "dateTime": "2025-03-18T09:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T10:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "break1",
+        "summary": "Morning Coffee Break",
+        "location": "Campus Café",
+        "description": "Relax and recharge before the next class.",
+        "start": {
+          "dateTime": "2025-03-18T10:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T11:15:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "math201",
+        "summary": "Calculus II",
+        "location": "Room 202, Science Hall",
+        "description": "Integration techniques and series.",
+        "start": {
+          "dateTime": "2025-03-18T11:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T13:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "lunch-break",
+        "summary": "Lunch with Friends",
+        "location": "Student Center",
+        "description": "Casual lunch and catch-up time.",
+        "start": {
+          "dateTime": "2025-03-18T13:15:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T14:15:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "team-meeting",
+        "summary": "Team Meeting",
+        "location": "Conference Room A",
+        "description": "Discuss project progress and next steps.",
+        "start": {
+          "dateTime": "2025-03-18T16:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T17:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "attendees": [
+          {
+            "email": "john.doe@example.com"
+          },
+          {
+            "email": "jane.doe@example.com"
+          }
+        ],
+        "reminders": {
+          "useDefault": false,
+          "overrides": [
+            {
+              "method": "email",
+              "minutes": 1440
+            },
+            {
+              "method": "popup",
+              "minutes": 10
+            }
+          ]
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "gym",
+        "summary": "Evening Workout",
+        "location": "Campus Gym",
+        "description": "Strength training and cardio.",
+        "start": {
+          "dateTime": "2025-03-18T18:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T19:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "friday-brunch",
+        "summary": "Friday Brunch with Friends",
+        "location": "Downtown Café",
+        "description": "Weekly tradition with close friends.",
+        "start": {
+          "dateTime": "2025-03-21T11:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T12:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "movie-night",
+        "summary": "Movie Night",
+        "location": "Friend's Apartment",
+        "description": "Watching the latest sci-fi thriller.",
+        "start": {
+          "dateTime": "2025-03-21T20:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T23:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "saturday-hike",
+        "summary": "Saturday Hiking Trip",
+        "location": "National Park",
+        "description": "Spending time outdoors and relaxing.",
+        "start": {
+          "dateTime": "2025-03-22T09:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-22T14:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      }
+    ]
+  }
+  

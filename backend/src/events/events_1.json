@@ -1,0 +1,178 @@
+{
+    "events": [
+      {
+        "id": "eng101",
+        "summary": "Introduction to Engineering",
+        "location": "Room 101, Engineering Building",
+        "description": "Lecture on fundamental engineering concepts.",
+        "start": {
+          "dateTime": "2025-03-21T08:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T09:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "math201",
+        "summary": "Calculus I",
+        "location": "Room 202, Science Hall",
+        "description": "Covers limits, derivatives, and integrals.",
+        "start": {
+          "dateTime": "2025-03-21T09:45:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T11:15:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "study-break",
+        "summary": "Library Study Session",
+        "location": "Main Library",
+        "description": "Working on calculus homework.",
+        "start": {
+          "dateTime": "2025-03-21T11:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T12:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "lunch",
+        "summary": "Lunch Break",
+        "location": "Student Center",
+        "description": "Lunch with classmates.",
+        "start": {
+          "dateTime": "2025-03-21T12:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T13:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "cs101",
+        "summary": "Introduction to Programming",
+        "location": "Room 104, Computer Science Building",
+        "description": "Introductory programming in Python.",
+        "start": {
+          "dateTime": "2025-03-21T14:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T15:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "gym",
+        "summary": "Gym Workout",
+        "location": "Campus Gym",
+        "description": "Strength training and cardio.",
+        "start": {
+          "dateTime": "2025-03-21T16:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T17:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "team-meeting",
+        "summary": "Team Meeting",
+        "location": "Conference Room A",
+        "description": "Discuss project progress and next steps.",
+        "start": {
+          "dateTime": "2025-03-21T18:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T19:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "attendees": [
+          {
+            "email": "john.doe@example.com"
+          },
+          {
+            "email": "jane.doe@example.com"
+          }
+        ],
+        "status": "confirmed"
+      },
+      {
+        "id": "groceries",
+        "summary": "Grocery Shopping",
+        "location": "Local Supermarket",
+        "description": "Stocking up on food for the week.",
+        "start": {
+          "dateTime": "2025-03-21T19:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T20:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "club-meeting",
+        "summary": "Robotics Club Meeting",
+        "location": "Tech Lab",
+        "description": "Planning for the upcoming robotics competition.",
+        "start": {
+          "dateTime": "2025-03-21T20:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-21T21:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "weekend-brunch",
+        "summary": "Weekend Brunch",
+        "location": "Café Downtown",
+        "description": "Catching up with friends over brunch.",
+        "start": {
+          "dateTime": "2025-03-22T10:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-22T11:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "dinner-weekend",
+        "summary": "Dinner with Friends",
+        "location": "Italian Bistro",
+        "description": "Weekend dinner meetup.",
+        "start": {
+          "dateTime": "2025-03-22T19:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-22T21:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      }
+    ]
+  }
+  

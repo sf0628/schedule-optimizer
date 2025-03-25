@@ -1,0 +1,162 @@
+[
+    {
+        "id": "event001",
+        "summary": "Data Structures Class",
+        "location": "Northeastern University, Room 210",
+        "description": "Lecture on advanced data structures.",
+        "start": {
+            "dateTime": "2025-03-24T09:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-24T10:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event002",
+        "summary": "Algorithms Class",
+        "location": "Online (Zoom)",
+        "description": "Lecture on graph algorithms.",
+        "start": {
+            "dateTime": "2025-03-24T13:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-24T14:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event003",
+        "summary": "Work at Office",
+        "location": "Company HQ, Boston",
+        "description": "In-office work day.",
+        "start": {
+            "dateTime": "2025-03-26T10:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-26T17:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event004",
+        "summary": "Remote Work",
+        "location": "Home Office",
+        "description": "Flexible work from home.",
+        "start": {
+            "dateTime": "2025-03-25T09:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-25T17:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event005",
+        "summary": "Gym Workout",
+        "location": "Local Gym",
+        "description": "Evening workout session.",
+        "start": {
+            "dateTime": "2025-03-25T18:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-25T19:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event006",
+        "summary": "Dinner with Friends",
+        "location": "Italian Restaurant",
+        "description": "Catch up with friends.",
+        "start": {
+            "dateTime": "2025-03-28T19:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-28T21:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event007",
+        "summary": "Church Service",
+        "location": "St. Mary's Church",
+        "description": "Sunday morning church service.",
+        "start": {
+            "dateTime": "2025-03-30T10:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-30T11:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event008",
+        "summary": "Hiking Trip",
+        "location": "Blue Hills Reservation",
+        "description": "Saturday morning hike.",
+        "start": {
+            "dateTime": "2025-03-29T08:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-29T12:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event009",
+        "summary": "Grocery Shopping",
+        "location": "Trader Joe's",
+        "description": "Weekly grocery run.",
+        "start": {
+            "dateTime": "2025-03-29T14:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-29T15:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+        "status": "confirmed"
+    },
+    {
+        "id": "event010",
+        "summary": "Movie Night",
+        "location": "Home",
+        "description": "Relaxing Saturday night movie session.",
+        "start": {
+            "dateTime": "2025-03-29T19:00:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "end": {
+            "dateTime": "2025-03-29T21:30:00-05:00",
+            "timeZone": "America/New_York"
+        },
+        "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+        "status": "confirmed"
+    }
+]

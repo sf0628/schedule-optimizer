@@ -1,0 +1,142 @@
+{
+    "events": [
+      {
+        "id": "standup-meeting",
+        "summary": "Morning Stand-Up",
+        "location": "Zoom / Conference Room A",
+        "description": "Daily team sync-up on tasks and blockers.",
+        "start": {
+          "dateTime": "2025-03-18T09:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T09:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "attendees": [
+          {
+            "email": "manager@example.com"
+          },
+          {
+            "email": "team@example.com"
+          }
+        ],
+        "reminders": {
+          "useDefault": false,
+          "overrides": [
+            {
+              "method": "popup",
+              "minutes": 15
+            }
+          ]
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "deep-work",
+        "summary": "Focused Work Time",
+        "location": "Office Desk",
+        "description": "Heads-down coding and project work.",
+        "start": {
+          "dateTime": "2025-03-18T10:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T12:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "lunch",
+        "summary": "Lunch Break",
+        "location": "Cafeteria / Nearby Café",
+        "description": "Relax and eat lunch.",
+        "start": {
+          "dateTime": "2025-03-18T12:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T12:45:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "afternoon-meeting",
+        "summary": "Project Check-In",
+        "location": "Conference Room B",
+        "description": "Review progress on current deliverables.",
+        "start": {
+          "dateTime": "2025-03-18T14:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T15:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "wrap-up",
+        "summary": "End-of-Day Wrap-Up",
+        "location": "Office Desk",
+        "description": "Review tasks, plan for tomorrow.",
+        "start": {
+          "dateTime": "2025-03-18T16:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T17:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "gym",
+        "summary": "Evening Gym Session",
+        "location": "Local Gym",
+        "description": "Strength training and cardio session.",
+        "start": {
+          "dateTime": "2025-03-18T18:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T19:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "sewing-time",
+        "summary": "Sewing & DIY Projects",
+        "location": "Home Studio",
+        "description": "Working on new clothing designs and alterations.",
+        "start": {
+          "dateTime": "2025-03-18T20:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-18T22:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      },
+      {
+        "id": "thrifting-saturday",
+        "summary": "Saturday Thrifting Trip",
+        "location": "Downtown Thrift Stores",
+        "description": "Exploring secondhand shops for unique finds.",
+        "start": {
+          "dateTime": "2025-03-22T11:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "end": {
+          "dateTime": "2025-03-22T14:00:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        "status": "confirmed"
+      }
+    ]
+  }
+  
