@@ -1,0 +1,1728 @@
+{
+  "calendars": [
+    {
+      "username": "student1",
+      "input": {
+        "events": [
+          {
+            "id": "math101",
+            "summary": "Basic Mathematics",
+            "location": "Room 105, Math Building",
+            "description": "Introduction to algebra and geometry.",
+            "start": {
+              "dateTime": "2025-04-15T08:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-15T10:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "break",
+            "summary": "Coffee Break",
+            "location": "Student Lounge",
+            "description": "Quick refreshment before next class.",
+            "start": {
+              "dateTime": "2025-04-15T10:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-15T10:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "phys101",
+            "summary": "Physics Fundamentals",
+            "location": "Lab 2, Science Building",
+            "description": "Introduction to mechanics and forces.",
+            "start": {
+              "dateTime": "2025-04-15T10:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-15T12:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Morning classes should be scheduled back-to-back with short breaks in between.",
+          "No classes should be scheduled after lunch time.",
+          "Break times should immediately follow class periods."
+        ],
+        "suggestions": [
+          "Consider adding study time after morning classes to review material."
+        ]
+      }
+    },
+    {
+      "username": "researcher1",
+      "input": {
+        "events": [
+          {
+            "id": "lab-work",
+            "summary": "Laboratory Research",
+            "location": "Main Research Lab",
+            "description": "Conducting experiments on protein synthesis.",
+            "start": {
+              "dateTime": "2025-04-16T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Lunch",
+            "location": "University Cafeteria",
+            "description": "Midday meal break.",
+            "start": {
+              "dateTime": "2025-04-16T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "data-analysis",
+            "summary": "Data Analysis",
+            "location": "Computer Lab",
+            "description": "Analyzing experimental results.",
+            "start": {
+              "dateTime": "2025-04-16T13:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "research-meeting",
+            "summary": "Research Team Meeting",
+            "location": "Conference Room B",
+            "description": "Weekly progress discussion with research team.",
+            "start": {
+              "dateTime": "2025-04-16T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "attendees": [
+              {
+                "email": "prof.smith@university.edu"
+              },
+              {
+                "email": "jane.researcher@university.edu"
+              }
+            ],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Lab work should be scheduled in the morning when focus is highest.",
+          "Data analysis should follow after adequate rest time post-lunch.",
+          "Team meetings should be at the end of the workday to discuss progress.",
+          "Lunch breaks should be at least 1 hour to allow proper rest between activities."
+        ],
+        "suggestions": [
+          "Consider scheduling a short break between data analysis and team meetings."
+        ]
+      }
+    },
+    {
+      "username": "remote_worker1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-routine",
+            "summary": "Morning Exercise",
+            "location": "Home Gym",
+            "description": "Daily workout to start the day.",
+            "start": {
+              "dateTime": "2025-04-17T06:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T07:15:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "team-standup",
+            "summary": "Daily Team Standup",
+            "location": "Zoom Meeting",
+            "description": "Daily team check-in and progress updates.",
+            "start": {
+              "dateTime": "2025-04-17T09:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T09:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "team.lead@company.com"
+              },
+              {
+                "email": "team.members@company.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "focused-work",
+            "summary": "Deep Work Session",
+            "location": "Home Office",
+            "description": "Uninterrupted focus time for coding project.",
+            "start": {
+              "dateTime": "2025-04-17T10:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T12:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch-break",
+            "summary": "Lunch Break",
+            "location": "Kitchen",
+            "description": "Midday meal and short rest.",
+            "start": {
+              "dateTime": "2025-04-17T12:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T13:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "client-meeting",
+            "summary": "Client Project Review",
+            "location": "Google Meet",
+            "description": "Review project milestones with client.",
+            "start": {
+              "dateTime": "2025-04-17T14:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T15:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "client.contact@clientcompany.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "afternoon-work",
+            "summary": "Afternoon Tasks",
+            "location": "Home Office",
+            "description": "Email management and administrative tasks.",
+            "start": {
+              "dateTime": "2025-04-17T15:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-17T17:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Days start with physical exercise before work begins.",
+          "Team standup meetings happen at 9am sharp every day.",
+          "Deep work sessions should have at least 2 hours of uninterrupted time.",
+          "Client meetings should not be scheduled immediately after lunch.",
+          "Administrative tasks are reserved for the end of the workday."
+        ],
+        "suggestions": [
+          "Buffer time should be added between meetings and focus work sessions.",
+          "Consider adding a short afternoon break to prevent burnout."
+        ]
+      }
+    },
+    {
+      "username": "grad_student1",
+      "input": {
+        "events": [
+          {
+            "id": "thesis-writing",
+            "summary": "Thesis Writing",
+            "location": "Home Study",
+            "description": "Writing dissertation chapter 3.",
+            "start": {
+              "dateTime": "2025-04-18T08:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-18T11:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "teaching-assistant",
+            "summary": "TA Office Hours",
+            "location": "Department Building, Room 203",
+            "description": "Helping undergraduate students with coursework.",
+            "start": {
+              "dateTime": "2025-04-18T13:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-18T15:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "research-seminar",
+            "summary": "Department Research Seminar",
+            "location": "Lecture Hall A",
+            "description": "Weekly department research presentation.",
+            "start": {
+              "dateTime": "2025-04-18T15:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-18T17:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "study-group",
+            "summary": "Graduate Study Group",
+            "location": "Library Conference Room",
+            "description": "Collaborative study session with other grad students.",
+            "start": {
+              "dateTime": "2025-04-18T18:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-18T20:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "attendees": [
+              {
+                "email": "grad.student1@university.edu"
+              },
+              {
+                "email": "grad.student2@university.edu"
+              },
+              {
+                "email": "grad.student3@university.edu"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "weekend-reading",
+            "summary": "Literature Review",
+            "location": "Coffee Shop",
+            "description": "Reading recent journal publications.",
+            "start": {
+              "dateTime": "2025-04-19T10:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-19T14:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Mornings are dedicated to thesis writing when mental energy is highest.",
+          "Teaching assistant duties are scheduled in the early afternoon.",
+          "Research-related activities like seminars and study groups take priority in the schedule.",
+          "Weekend mornings are reserved for reading and literature reviews.",
+          "Breaks are necessary between academic activities."
+        ],
+        "suggestions": [
+          "Consider scheduling shorter writing sessions with more frequent breaks.",
+          "Try to maintain a consistent lunch time between morning and afternoon activities."
+        ]
+      }
+    },
+    {
+      "username": "parent1",
+      "input": {
+        "events": [
+          {
+            "id": "school-dropoff",
+            "summary": "School Drop-off",
+            "location": "Elementary School",
+            "description": "Morning drop-off for children.",
+            "start": {
+              "dateTime": "2025-04-21T08:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "work-morning",
+            "summary": "Morning Work Session",
+            "location": "Home Office",
+            "description": "Focus time for work projects.",
+            "start": {
+              "dateTime": "2025-04-21T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch-prep",
+            "summary": "Lunch Preparation",
+            "location": "Home Kitchen",
+            "description": "Preparing family lunch.",
+            "start": {
+              "dateTime": "2025-04-21T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Family Lunch",
+            "location": "Home",
+            "description": "Midday meal with family.",
+            "start": {
+              "dateTime": "2025-04-21T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "work-afternoon",
+            "summary": "Afternoon Work Session",
+            "location": "Home Office",
+            "description": "Continued work on projects.",
+            "start": {
+              "dateTime": "2025-04-21T13:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "school-pickup",
+            "summary": "School Pick-up",
+            "location": "Elementary School",
+            "description": "Afternoon pick-up for children.",
+            "start": {
+              "dateTime": "2025-04-21T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "kids-activities",
+            "summary": "Children's Activities",
+            "location": "Community Center",
+            "description": "After-school sports and activities.",
+            "start": {
+              "dateTime": "2025-04-21T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "dinner-prep",
+            "summary": "Dinner Preparation",
+            "location": "Home Kitchen",
+            "description": "Cooking family dinner.",
+            "start": {
+              "dateTime": "2025-04-21T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "family-time",
+            "summary": "Family Evening Time",
+            "location": "Home",
+            "description": "Quality time with family - games and homework help.",
+            "start": {
+              "dateTime": "2025-04-21T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-21T21:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "School transportation times are non-negotiable and must be prioritized.",
+          "Work sessions must accommodate family lunch times.",
+          "Afternoon work must end before school pickup time.",
+          "Evening activities revolve around children's needs and family time.",
+          "Meal preparation requires dedicated time blocks."
+        ],
+        "suggestions": [
+          "Try to complete most critical work during morning sessions when there are fewer family interruptions.",
+          "Consider meal prepping on weekends to reduce weekday cooking time."
+        ]
+      }
+    },
+    {
+      "username": "entrepreneur1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-review",
+            "summary": "Daily Planning",
+            "location": "Home Office",
+            "description": "Reviewing goals and planning the day.",
+            "start": {
+              "dateTime": "2025-04-22T06:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T06:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "workout",
+            "summary": "Morning Exercise",
+            "location": "Fitness Center",
+            "description": "Daily fitness routine.",
+            "start": {
+              "dateTime": "2025-04-22T07:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T08:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "investor-call",
+            "summary": "Investor Update Call",
+            "location": "Virtual Meeting",
+            "description": "Monthly progress report for investors.",
+            "start": {
+              "dateTime": "2025-04-22T09:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T10:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "investor1@venturecapital.com"
+              },
+              {
+                "email": "investor2@angelfund.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "team-meeting",
+            "summary": "Team Alignment Meeting",
+            "location": "Company Office",
+            "description": "Weekly team strategy and coordination.",
+            "start": {
+              "dateTime": "2025-04-22T11:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T12:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "cofounder@startup.com"
+              },
+              {
+                "email": "team@startup.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "networking-lunch",
+            "summary": "Industry Networking Lunch",
+            "location": "Downtown Restaurant",
+            "description": "Relationship building with industry contacts.",
+            "start": {
+              "dateTime": "2025-04-22T12:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T14:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "industry.contact@bigcorp.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "product-development",
+            "summary": "Product Development",
+            "location": "Company Office",
+            "description": "Working with development team on product features.",
+            "start": {
+              "dateTime": "2025-04-22T15:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T17:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "evening-emails",
+            "summary": "Email Management",
+            "location": "Home Office",
+            "description": "Catching up on correspondence.",
+            "start": {
+              "dateTime": "2025-04-22T20:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-22T21:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Every day begins with planning and exercise.",
+          "Important stakeholder meetings are scheduled in the morning when energy is highest.",
+          "Networking happens during meal times to maximize productivity.",
+          "Hands-on work with the team is scheduled in the afternoon.",
+          "Administrative tasks like emails are handled in the evening.",
+          "There must be buffer time between external meetings to prepare and process."
+        ],
+        "suggestions": [
+          "Consider adding a short afternoon break for reflection and regrouping.",
+          "Try to reserve at least one day per week with no external meetings for deep work."
+        ]
+      }
+    },
+    {
+      "username": "healthcare_worker1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-shift",
+            "summary": "Hospital Shift",
+            "location": "Memorial Hospital",
+            "description": "Morning shift in emergency department.",
+            "start": {
+              "dateTime": "2025-04-23T07:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-23T15:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "shift-handover",
+            "summary": "Shift Handover",
+            "location": "Staff Room, Memorial Hospital",
+            "description": "Patient status updates to incoming staff.",
+            "start": {
+              "dateTime": "2025-04-23T15:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-23T15:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "recovery-time",
+            "summary": "Rest and Recovery",
+            "location": "Home",
+            "description": "Post-shift downtime.",
+            "start": {
+              "dateTime": "2025-04-23T16:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-23T18:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "night-class",
+            "summary": "Advanced Certification Course",
+            "location": "Medical Education Center",
+            "description": "Continuing education class.",
+            "start": {
+              "dateTime": "2025-04-23T19:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-23T21:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "next-day-prep",
+            "summary": "Prepare for Next Shift",
+            "location": "Home",
+            "description": "Preparing meals and clothes for next workday.",
+            "start": {
+              "dateTime": "2025-04-23T21:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-23T22:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "night-shift",
+            "summary": "Hospital Night Shift",
+            "location": "Memorial Hospital",
+            "description": "Overnight shift in emergency department.",
+            "start": {
+              "dateTime": "2025-04-24T23:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-25T07:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Shift times are fixed and non-negotiable.",
+          "Proper rest time is essential between shifts, especially before night shifts.",
+          "Continuing education should not be scheduled on days following night shifts.",
+          "Preparation time is needed before each shift.",
+          "At least 10-12 hours should separate consecutive shifts."
+        ],
+        "suggestions": [
+          "Consider grouping similar shifts together (all morning shifts or all night shifts) to maintain consistent sleep patterns.",
+          "Schedule self-care activities on days between demanding shifts."
+        ]
+      }
+    },
+    {
+      "username": "teacher1",
+      "input": {
+        "events": [
+          {
+            "id": "prep-time",
+            "summary": "Class Preparation",
+            "location": "Home Office",
+            "description": "Preparing materials for day's lessons.",
+            "start": {
+              "dateTime": "2025-04-24T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T07:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "homeroom",
+            "summary": "Homeroom Period",
+            "location": "Classroom 215",
+            "description": "Morning attendance and announcements.",
+            "start": {
+              "dateTime": "2025-04-24T08:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T08:15:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "math-class-1",
+            "summary": "Algebra I - Class 9A",
+            "location": "Classroom 215",
+            "description": "Instruction on quadratic equations.",
+            "start": {
+              "dateTime": "2025-04-24T08:20:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T09:10:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "math-class-2",
+            "summary": "Geometry - Class 10B",
+            "location": "Classroom 215",
+            "description": "Instruction on circle theorems.",
+            "start": {
+              "dateTime": "2025-04-24T09:15:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T10:05:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "planning-period",
+            "summary": "Planning Period",
+            "location": "Teachers' Lounge",
+            "description": "Grading and planning time.",
+            "start": {
+              "dateTime": "2025-04-24T10:10:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T11:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch-duty",
+            "summary": "Cafeteria Supervision",
+            "location": "School Cafeteria",
+            "description": "Supervising student lunch period.",
+            "start": {
+              "dateTime": "2025-04-24T11:05:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T11:35:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "teacher-lunch",
+            "summary": "Lunch Break",
+            "location": "Teachers' Lounge",
+            "description": "Personal lunch time.",
+            "start": {
+              "dateTime": "2025-04-24T11:40:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T12:10:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "math-class-3",
+            "summary": "Algebra II - Class 11C",
+            "location": "Classroom 215",
+            "description": "Lesson on logarithmic functions.",
+            "start": {
+              "dateTime": "2025-04-24T12:15:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T13:05:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "faculty-meeting",
+            "summary": "Department Meeting",
+            "location": "Conference Room",
+            "description": "Math department curriculum planning.",
+            "start": {
+              "dateTime": "2025-04-24T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "parent-conference",
+            "summary": "Parent-Teacher Conference",
+            "location": "Classroom 215",
+            "description": "Meeting with student parents about progress.",
+            "start": {
+              "dateTime": "2025-04-24T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-24T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Class schedules are fixed and non-negotiable with 5-minute transition periods.",
+          "Planning periods should be used for grading and lesson preparation.",
+          "Lunch duty must be staffed before personal lunch breaks.",
+          "Faculty meetings are scheduled after student dismissal.",
+          "Parent conferences should be scheduled with at least 30 minutes buffer after the school day ends."
+        ],
+        "suggestions": [
+          "Consider preparing class materials the evening before to reduce morning preparation stress.",
+          "Schedule grading time daily rather than letting it accumulate."
+        ]
+      }
+    },
+    {
+      "username": "business_traveler1",
+      "input": {
+        "events": [
+          {
+            "id": "flight-outbound",
+            "summary": "Flight to Chicago",
+            "location": "JFK Airport",
+            "description": "Departure from JFK to ORD.",
+            "start": {
+              "dateTime": "2025-04-25T07:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-25T09:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "hotel-checkin",
+            "summary": "Hotel Check-in",
+            "location": "Hilton Chicago",
+            "description": "Arrival and check-in at hotel.",
+            "start": {
+              "dateTime": "2025-04-25T10:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-25T11:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "client-lunch",
+            "summary": "Client Lunch Meeting",
+            "location": "The Capital Grille, Chicago",
+            "description": "Business lunch with potential clients.",
+            "start": {
+              "dateTime": "2025-04-25T12:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-25T13:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "attendees": [
+              {
+                "email": "client@company.com"
+              },
+              {
+                "email": "client2@company.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "presentation-prep",
+            "summary": "Prepare for Conference Presentation",
+            "location": "Hotel Room",
+            "description": "Final review of slides and notes.",
+            "start": {
+              "dateTime": "2025-04-25T14:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-25T16:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "conference-reception",
+            "summary": "Conference Welcome Reception",
+            "location": "Convention Center, Hall B",
+            "description": "Networking event for conference attendees.",
+            "start": {
+              "dateTime": "2025-04-25T18:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-25T20:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "conference-day1",
+            "summary": "Industry Conference - Day 1",
+            "location": "Chicago Convention Center",
+            "description": "Full day of conference sessions.",
+            "start": {
+              "dateTime": "2025-04-26T08:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-26T17:00:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "presentation",
+            "summary": "Deliver Conference Presentation",
+            "location": "Convention Center, Room 305",
+            "description": "Speaker session on industry trends.",
+            "start": {
+              "dateTime": "2025-04-26T13:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-26T14:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "flight-return",
+            "summary": "Return Flight to New York",
+            "location": "ORD Airport",
+            "description": "Departure from ORD to JFK.",
+            "start": {
+              "dateTime": "2025-04-26T19:30:00-05:00",
+              "timeZone": "America/Chicago"
+            },
+            "end": {
+              "dateTime": "2025-04-26T23:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Allow at least 90 minutes buffer between flight arrival and first business meeting.",
+          "Schedule presentation preparation time well before any speaking engagements.",
+          "Plan for time zone adjustments when scheduling cross-country meetings.",
+          "Leave sufficient time for transport between venues in unfamiliar cities.",
+          "Return flights should not be scheduled too soon after conference end times."
+        ],
+        "suggestions": [
+          "Build in extra time for unpredictable travel delays.",
+          "Schedule important presentations earlier in the trip when energy levels are higher."
+        ]
+      }
+    },
+    {
+      "username": "freelancer1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-routine",
+            "summary": "Morning Routine & Planning",
+            "location": "Home",
+            "description": "Exercise, breakfast, and day planning.",
+            "start": {
+              "dateTime": "2025-04-28T06:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T08:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "project1-work",
+            "summary": "Client Project: Website Design",
+            "location": "Home Office",
+            "description": "Developing e-commerce website for client.",
+            "start": {
+              "dateTime": "2025-04-28T08:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T11:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "client1-call",
+            "summary": "Client Check-in Call",
+            "location": "Zoom Meeting",
+            "description": "Progress update on website project.",
+            "start": {
+              "dateTime": "2025-04-28T11:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T12:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "attendees": [
+              {
+                "email": "client1@business.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch-break",
+            "summary": "Lunch Break",
+            "location": "Home",
+            "description": "Midday meal and short rest.",
+            "start": {
+              "dateTime": "2025-04-28T12:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T13:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "project2-work",
+            "summary": "Client Project: Logo Design",
+            "location": "Local Café",
+            "description": "Creating branding materials for startup.",
+            "start": {
+              "dateTime": "2025-04-28T13:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T16:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "networking-event",
+            "summary": "Freelancer Meetup",
+            "location": "Community Space",
+            "description": "Monthly networking with other freelancers.",
+            "start": {
+              "dateTime": "2025-04-28T18:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-28T20:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=28"],
+            "status": "confirmed"
+          },
+          {
+            "id": "admin-time",
+            "summary": "Administrative Work",
+            "location": "Home Office",
+            "description": "Invoicing, email management, and business planning.",
+            "start": {
+              "dateTime": "2025-04-29T16:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-29T18:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+            "status": "confirmed"
+          },
+          {
+            "id": "skill-development",
+            "summary": "Online Course: Advanced UI Design",
+            "location": "Home Office",
+            "description": "Professional development and skill building.",
+            "start": {
+              "dateTime": "2025-04-30T09:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-30T11:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "weekend-offline",
+            "summary": "Digital Detox",
+            "location": "Various",
+            "description": "Offline time for creativity and recharging.",
+            "start": {
+              "dateTime": "2025-05-03T00:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-05-04T23:59:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA,SU"],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Mornings are dedicated to the most demanding creative work.",
+          "Client communication is scheduled right before or after work on their projects.",
+          "Afternoons can be used for different work environments like cafés.",
+          "Administrative tasks are batched on specific days rather than spread throughout the week.",
+          "Professional development has dedicated time slots.",
+          "Weekends remain work-free for creative recharging."
+        ],
+        "suggestions": [
+          "Consider implementing time blocks for email checking rather than continuous availability.",
+          "Alternate between different types of projects within the same day to maintain creative energy."
+        ]
+      }
+    },
+    {
+      "username": "startup_founder1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-routine",
+            "summary": "Personal Development",
+            "location": "Home",
+            "description": "Reading, meditation, and exercise.",
+            "start": {
+              "dateTime": "2025-04-29T05:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "standup-meeting",
+            "summary": "Team Standup",
+            "location": "Startup Office",
+            "description": "Daily progress check with core team.",
+            "start": {
+              "dateTime": "2025-04-29T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T09:15:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY;BYDAY=MO,TU,WE,TH,FR"],
+            "attendees": [
+              {
+                "email": "cto@startup.co"
+              },
+              {
+                "email": "product@startup.co"
+              },
+              {
+                "email": "marketing@startup.co"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "investor-pitch",
+            "summary": "Pitch to VC Firm",
+            "location": "Venture Capital Office",
+            "description": "Series A funding pitch.",
+            "start": {
+              "dateTime": "2025-04-29T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "attendees": [
+              {
+                "email": "partner@vcfirm.com"
+              },
+              {
+                "email": "associate@vcfirm.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "product-review",
+            "summary": "Product Development Review",
+            "location": "Startup Office",
+            "description": "Review latest product features and roadmap.",
+            "start": {
+              "dateTime": "2025-04-29T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T14:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "attendees": [
+              {
+                "email": "cto@startup.co"
+              },
+              {
+                "email": "product@startup.co"
+              },
+              {
+                "email": "lead-dev@startup.co"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "media-interview",
+            "summary": "Tech Publication Interview",
+            "location": "Phone Call",
+            "description": "Interview about startup journey for industry blog.",
+            "start": {
+              "dateTime": "2025-04-29T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T15:45:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "customer-calls",
+            "summary": "Customer Feedback Sessions",
+            "location": "Zoom Meetings",
+            "description": "One-on-one calls with key customers.",
+            "start": {
+              "dateTime": "2025-04-29T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-29T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "strategic-planning",
+            "summary": "Strategic Planning Session",
+            "location": "Startup Office - Conference Room",
+            "description": "Quarterly goals and strategy review with leadership team.",
+            "start": {
+              "dateTime": "2025-04-30T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-30T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "attendees": [
+              {
+                "email": "cto@startup.co"
+              },
+              {
+                "email": "cfo@startup.co"
+              },
+              {
+                "email": "marketing@startup.co"
+              },
+              {
+                "email": "operations@startup.co"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "board-meeting",
+            "summary": "Board of Directors Meeting",
+            "location": "Virtual Conference",
+            "description": "Monthly update with board members.",
+            "start": {
+              "dateTime": "2025-04-30T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-30T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=30"],
+            "attendees": [
+              {
+                "email": "board-member1@email.com"
+              },
+              {
+                "email": "board-member2@email.com"
+              },
+              {
+                "email": "board-member3@email.com"
+              }
+            ],
+            "status": "confirmed"
+          },
+          {
+            "id": "recruiting",
+            "summary": "Engineering Candidate Interviews",
+            "location": "Startup Office",
+            "description": "Interviewing senior developer candidates.",
+            "start": {
+              "dateTime": "2025-05-01T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-01T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "reflection-time",
+            "summary": "Weekly Reflection and Planning",
+            "location": "Home Office",
+            "description": "Review week's progress and plan upcoming priorities.",
+            "start": {
+              "dateTime": "2025-05-02T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-02T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Personal development must happen first thing in the morning before the workday begins.",
+          "Team standups are brief (15 minutes) and happen at the same time every workday.",
+          "High-stakes meetings like investor pitches are scheduled earlier in the day when energy is highest.",
+          "Customer feedback sessions are consistent weekly touchpoints.",
+          "Strategic planning sessions require longer time blocks with the full leadership team.",
+          "Friday afternoons are reserved for reflection and planning the next week.",
+          "Only one major external commitment (investor, media, board) should be scheduled per day."
+        ],
+        "suggestions": [
+          "Consider grouping similar types of meetings (external, internal, one-on-ones) on specific days of the week.",
+          "Block out periods for deep work and strategic thinking between meetings."
+        ]
+      }
+    },
+    {
+      "username": "high_school_student1",
+      "input": {
+        "events": [
+          {
+            "id": "english101",
+            "summary": "English Literature",
+            "location": "Room 112, Main Building",
+            "description": "Reading and analyzing The Great Gatsby.",
+            "start": {
+              "dateTime": "2025-04-14T08:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T08:50:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "math101",
+            "summary": "Pre-Calculus",
+            "location": "Room 203, Main Building",
+            "description": "Lesson on trigonometric functions.",
+            "start": {
+              "dateTime": "2025-04-14T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T09:50:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Lunch Period",
+            "location": "School Cafeteria",
+            "description": "Midday meal break.",
+            "start": {
+              "dateTime": "2025-04-14T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T12:15:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "basketball",
+            "summary": "Basketball Practice",
+            "location": "School Gymnasium",
+            "description": "Team practice session.",
+            "start": {
+              "dateTime": "2025-04-14T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "School classes follow a fixed schedule with 10-minute transitions.",
+          "Lunch period is at the same time every day.",
+          "After-school activities begin after the final class period.",
+          "No studying is scheduled during lunch breaks."
+        ],
+        "suggestions": [
+          "Add study periods between classes when possible."
+        ]
+      }
+    },
+    {
+      "username": "retiree1",
+      "input": {
+        "events": [
+          {
+            "id": "morning-walk",
+            "summary": "Morning Walk",
+            "location": "Neighborhood Park",
+            "description": "Daily exercise and fresh air.",
+            "start": {
+              "dateTime": "2025-04-15T07:30:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "end": {
+              "dateTime": "2025-04-15T08:15:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "volunteer",
+            "summary": "Community Garden Volunteering",
+            "location": "Downtown Community Garden",
+            "description": "Weekly volunteer session at the community garden.",
+            "start": {
+              "dateTime": "2025-04-15T10:00:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "end": {
+              "dateTime": "2025-04-15T12:00:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "doctor",
+            "summary": "Doctor's Appointment",
+            "location": "City Medical Center",
+            "description": "Regular checkup with Dr. Johnson.",
+            "start": {
+              "dateTime": "2025-04-15T14:00:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "end": {
+              "dateTime": "2025-04-15T15:00:00-06:00",
+              "timeZone": "America/Denver"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Physical activities are scheduled in the morning.",
+          "Medical appointments are booked in the afternoon.",
+          "At least two hours of rest time between activities."
+        ],
+        "suggestions": [
+          "Try to schedule medical appointments on the same day of the week."
+        ]
+      }
+    },
+    {
+      "username": "weekend_planner1",
+      "input": {
+        "events": [
+          {
+            "id": "farmers-market",
+            "summary": "Farmers Market",
+            "location": "City Plaza",
+            "description": "Shopping for fresh produce and artisanal goods.",
+            "start": {
+              "dateTime": "2025-04-19T09:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-19T10:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "brunch",
+            "summary": "Brunch with Friends",
+            "location": "Coastal Café",
+            "description": "Weekend social gathering.",
+            "start": {
+              "dateTime": "2025-04-19T11:30:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-19T13:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "beach",
+            "summary": "Beach Time",
+            "location": "Golden Beach",
+            "description": "Relaxation by the ocean.",
+            "start": {
+              "dateTime": "2025-04-19T14:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-19T17:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "movie-night",
+            "summary": "Movie Night at Home",
+            "location": "Home",
+            "description": "Watching new releases and relaxing.",
+            "start": {
+              "dateTime": "2025-04-19T19:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "end": {
+              "dateTime": "2025-04-19T22:00:00-07:00",
+              "timeZone": "America/Los_Angeles"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Weekend mornings start with outdoor activities.",
+          "Social meals are scheduled mid-day.",
+          "Recreational activities take place in the afternoon.",
+          "Evenings are reserved for relaxation at home."
+        ],
+        "suggestions": [
+          "Allow for flexibility in weekend schedules to accommodate spontaneous activities."
+        ]
+      }
+    }
+  ]
+}
