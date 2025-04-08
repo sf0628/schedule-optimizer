@@ -1,8 +1,7 @@
 # Schedule Optimizing Platform
 ## Installation
 
-(i need to do this later: pip freeze > requirements.txt)
-
+To install all the dependencies:
 pip install -r requirements.txt
 
 Run flask in debugger mode:
@@ -10,6 +9,9 @@ cd backend/src
 flask --app app run --debug
 
 Running on http://127.0.0.1:5000
+
+This is how you login:
+http://127.0.0.1:5000/auth/login
 
 Run React frontend:
 cd frontend
