@@ -12,6 +12,7 @@ dist/
 dist-ssr/
 .vite/
 __pycache__/
+flask_session/
 
 # Logs
 logs/
