@@ -5,13 +5,16 @@ from flask_session import Session
 from auth.routes import auth_bp
 from datetime import timedelta
 from calendar_api.routes import calendar_bp
+from dotenv import load_dotenv
+
 
 def create_app(test_config=None):
+    load_dotenv()
     app = Flask(__name__, instance_relative_config=True)
     
     # Configure session
     app.config.from_mapping(
-        SECRET_KEY=os.environ.get('SECRET_KEY', 'dev_key_change_in_production'),
+        SECRET_KEY=os.getenv("SECRET_KEY"),
         SESSION_TYPE='filesystem',
         SESSION_PERMANENT=False,
         SESSION_USE_SIGNER=True,

@@ -1,12 +1,16 @@
 from flask import Blueprint, redirect, request, jsonify, session
 from flask_session import Session
 from google_auth_oauthlib.flow import Flow
-from dotenv import load_dotenv
-
+# from supabase import create_client, Client
+# from dotenv import load_dotenv
 from utils.utils import get_credentials_path
 import os
 
-load_dotenv()
+# SUPABASE_URL = os.getenv("SUPABASE_URL")
+# SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+# supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+# load_dotenv()
 auth_bp = Blueprint("auth", __name__)
 
 SCOPES = [

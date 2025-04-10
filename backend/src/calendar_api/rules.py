@@ -5,12 +5,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "llama3p1-8b-instruct"
+MODEL = "gpt-4o-mini"
 
 client = openai.OpenAI(
     api_key = "fu.so@northeastern.edu:03712",
     base_url = "https://nerc.guha-anderson.com/v1"
 )
+
+# benchmark = json.loads('../data/rules_train.edu')
 
 SYSTEM_PROMPT = """
 I want you to become my Expert Prompt Creator. Only answer with a list of rules and preferences about 
@@ -40,16 +42,16 @@ Exceptions:
 
 """
 
-with open('../events/events_1.json', 'r') as file:
+with open('./calendar_api/events/events_1.json', 'r') as file:
     EVENTS_1 = json.load(file)
 
-with open('../events/events_2.json', 'r') as file:
+with open('./calendar_api/events/events_2.json', 'r') as file:
     EVENTS_2 = json.load(file)
 
-with open('../events/events_3.json', 'r') as file:
+with open('./calendar_api/events/events_3.json', 'r') as file:
     EVENTS_3 = json.load(file)
 
-with open('../events/events_4.json', 'r') as file:
+with open('./calendar_api/events/events_4.json', 'r') as file:
     EVENTS_4 = json.load(file)
 
 EVENTS_1_RULES = """
@@ -111,4 +113,6 @@ def rules_agent(user_query):
     print(resp)
     return resp
 
-rules_agent(json.dumps(EVENTS_4))
+
+# for item in benchmark['calendar']:
+#     agent = rules_agent(json.dumps(item['input']['events']))
