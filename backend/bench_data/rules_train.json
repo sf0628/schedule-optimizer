@@ -257,7 +257,7 @@
     },
     {
       "username": "test2",
-      "inputs": {
+      "input": {
         "events": [
           {
             "id": "cs101",
@@ -425,7 +425,7 @@
     },
     {
       "username": "test3",
-      "inputs": {
+      "input": {
         "events": [
           {
             "id": "cs101",
@@ -595,7 +595,8 @@
     },
     {
       "username": "test4",
-      "inputs": [
+      "input": {
+        "events": [
         {
             "id": "event001",
             "summary": "Data Structures Class",
@@ -756,7 +757,7 @@
             "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
             "status": "confirmed"
         }
-    ],
+    ]},
       "outputs": {
         "rules": [
           "Classes and Remote Work Alternate by Day.", 
@@ -1081,7 +1082,8 @@
 
 {
   "username": "test10",
-  "inputs": [
+  "input": {
+    "events":[
     {
       "id": "event001",
       "summary": "Morning Yoga",
@@ -1202,7 +1204,7 @@
       "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Early mornings are reserved for wellness activities.",
@@ -1218,7 +1220,8 @@
 
 {
   "username": "test11",
-  "inputs": [
+  "input": {
+    "events":[
     {
       "id": "event001",
       "summary": "High School Physics Class",
@@ -1347,7 +1350,7 @@
       "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Teaching responsibilities are concentrated in morning hours.",
@@ -1364,7 +1367,8 @@
 
 {
   "username": "test12",
-  "inputs": [
+  "input": {
+    "events": [
     {
       "id": "event001",
       "summary": "Hospital Rounds",
@@ -1509,7 +1513,7 @@
       "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=18"],
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Hospital rounds are always early in the morning on specific days.",
@@ -1527,7 +1531,8 @@
 
 {
   "username": "test13",
-  "inputs": [
+  "input": {
+    "events": [
     {
       "id": "event001",
       "summary": "Morning Meditation",
@@ -1688,7 +1693,7 @@
       "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Every day begins with meditation to center the mind.",
@@ -1705,7 +1710,8 @@
 },
 {
   "username": "test14",
-  "inputs": [
+  "input": {
+    "events": [
     {
       "id": "event001",
       "summary": "Remote Software Development",
@@ -1882,7 +1888,7 @@
       "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=17"],
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Mornings are dedicated to uninterrupted development work.",
@@ -1900,7 +1906,8 @@
 
 {
   "username": "test15",
-  "inputs": [
+  "input": {
+    "events": [
     {
       "id": "event001",
       "summary": "Morning Pages Writing",
@@ -2092,7 +2099,7 @@
       },
       "status": "confirmed"
     }
-  ],
+  ]},
   "outputs": {
     "rules": [
       "Every day begins with morning pages writing practice.",
