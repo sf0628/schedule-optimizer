@@ -13,7 +13,7 @@ function useNavigation() {
         goToFeatures: () => navigate(`/features`),
         goToFuture: () => navigate(`/future`),
         goToStart: () => navigate(`/start`),
-        goToLogin: () => navigate(`/auth`),
+        goToLogin: () => navigate(`/login`),
         goToNew: () => navigate(`/new`),
         goToCalendars: () => navigate(`/calendars`),
         goToCalendar: (calendarId: string) => navigate(`/calendars/:${calendarId}`),

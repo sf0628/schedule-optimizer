@@ -6,10 +6,12 @@ import LoginPage from './pages/LoginPage.tsx';
 import DemoPage from './pages/DemoPage.tsx'
 import Header from './components/Header.tsx';
 import Footer from './components/Footer.tsx';
+import { AuthCallback } from './components/Auth.tsx';
 import LandingPage from './pages/LandingPage.tsx';
 import StartPage from './pages/StartPage.tsx';
 import FeaturesPage from './pages/FeaturesPage.tsx';
 import FuturePage from './pages/FuturePage.tsx';
+import NotFoundPage from './pages/NotFoundPage.tsx';
 
 function Layout() {
 
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: '/future',
         element: <FuturePage />
+      },
+      {
+        path: '/login',
+        element: <LoginPage />
+      },
+      {
+        path: '/oauth/authorize',
+        element: <AuthCallback />
       }
     ],
   },
@@ -52,10 +62,9 @@ const router = createBrowserRouter([
     element: <StartPage />
   },
   {
-    path: '/auth',
-    element: <LoginPage />
-  },
-
+    path: '*',
+    element: <NotFoundPage />
+  }
 ])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

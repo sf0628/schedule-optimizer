@@ -12,11 +12,14 @@ from googleapiclient.errors import HttpError
 from utils.utils import get_credentials_path
 
 # this service.py contains all the functionality to interact with the google calendar api
-SCOPES = [
-    "https://www.googleapis.com/auth/calendar",
-    "https://www.googleapis.com/auth/calendar.events",
-]
+# SCOPES = [
+#     "https://www.googleapis.com/auth/calendar.events",
+#     "https://www.googleapis.com/auth/calendar",
+#     "https://www.googleapis.com/auth/userinfo.profile",
+#     "https://www.googleapis.com/auth/userinfo.email",
+# ]
 
+SCOPES = "https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar"
 credentials = get_credentials_path()
 
 # call the calendar api

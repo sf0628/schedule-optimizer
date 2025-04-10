@@ -2,9 +2,34 @@ import useNavigation from "../hooks/useNavigation";
 import calendarBlack from "../assets/icons/calendar-black.svg";
 import calendarBrown from "../assets/icons/calendar-brown.svg";
 import gitHub from "../assets/icons/github.svg";
+import { useState, useEffect } from "react";
+import useAuth from "../hooks/useAuth";
 
 function Header() {
+    const [buttonName, setButtonName] = useState<string>("Sign In");
+    const { checkAuthStatus } = useAuth();
     const { goToLanding, goToLogin, goToDemo, goToFeatures, goToFuture } = useNavigation();
+    
+    useEffect(() => {
+        const fetchStatus = async () => {
+            const status = await checkAuthStatus();
+            if (!status) {
+                setButtonName("Sign In")
+            } else {
+                setButtonName("Profile");
+            }
+        }
+        fetchStatus();
+    }, []);
+
+    const handleButtonClick = () => {
+        if (buttonName == "Sign In") {
+            goToLogin();
+        }
+        if (buttonName == "Profile") {
+
+        }
+    };
 
     return (
         <header className="flex flex-row justify-between w-full max-h-10 my-5">
@@ -28,11 +53,19 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <button 
-            className="border border-black rounded-xl py-1 px-2 text-sm hover:text-white hover:border-amber-950 hover:bg-black" 
-            onClick={ goToLogin }>
-                Sign In
-            </button>
+            <div className="relative group">
+                <button 
+                className="border border-black rounded-xl py-1 px-2 text-sm hover:text-white hover:border-amber-950 hover:bg-black" 
+                onClick={ handleButtonClick }>
+                    {buttonName}
+                </button>
+                {(buttonName == "Profile") &&
+                    <div className=" border rounded-xl invisible group-hover:visible absolute lg:w-50 md:w-40 w-30 h-40 bg-white -translate-x-15  lg:-translate-x-30 md:-translate-x-17 -translate-y-8"></div>
+                }
+                
+
+            </div>
+
 
         </header>
     )
