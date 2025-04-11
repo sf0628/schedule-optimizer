@@ -21,8 +21,11 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
 
+    # disable insecure transport error
+    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
+
     # session times out after one minute
-    app.permanent_session_lifetime = timedelta(minutes=1)
+    app.permanent_session_lifetime = timedelta(minutes=5)
 
     # Load config
     if test_config is None:
@@ -39,7 +42,11 @@ def create_app(test_config=None):
         pass
 
     # Enable CORS
-    CORS(app, supports_credentials=True)  # Enable credentials for session cookies
+    CORS(app, 
+         supports_credentials=True, 
+         resources={r"/*": {"origins": "http://localhost:5173"}}, # Enable credentials for session cookies
+         allow_headers=["Content-Type", "Authorization"],
+        ) 
 
     # Register Blueprints
     app.register_blueprint(auth_bp, url_prefix="/auth")

@@ -12,6 +12,7 @@ import StartPage from './pages/StartPage.tsx';
 import FeaturesPage from './pages/FeaturesPage.tsx';
 import FuturePage from './pages/FuturePage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
+import CalendarPage from './pages/CalendarPage.tsx';
 
 function Layout() {
 
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
   {
     path: '/start',
     element: <StartPage />
+  },
+  {
+    path: '/calendars/:calendarId',
+    element: <CalendarPage />
   },
   {
     path: '*',

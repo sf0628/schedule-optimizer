@@ -1,8 +1,10 @@
 import StartCard from '../components/StartCard';
 import { useState } from 'react';
+import useNavigation from '../hooks/useNavigation';
 
 function LandingPage() {
   const [ email, setEmail ] = useState<string>("");
+  const { goToStart} = useNavigation();
 
   const handleEmailSubmit = () => {
     console.log("Fake submission works!");
@@ -19,7 +21,7 @@ function LandingPage() {
           </p>
           <form id='email-start-form' onSubmit={handleEmailSubmit}>
             <input className='bg-white border-1 border-zinc-300 text-xs p-2 rounded-xs' value={email} placeholder="xyz.example@gmail.com" onChange={e => setEmail(e.target.value)} type="text"/>
-            <button className='font-serif bg-green-800 ml-3 p-2 text-white text-xs rounded-4xl' form='email-start-form' type="submit">Connect Calendar</button>
+            <button className='font-serif bg-green-800 ml-3 p-2 text-white text-xs rounded-4xl' form='email-start-form' type="submit" onClick={() =>goToStart(email)}>Connect Calendar</button>
           </form>
           <label>
           </label>

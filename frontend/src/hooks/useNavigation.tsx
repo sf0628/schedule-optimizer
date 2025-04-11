@@ -12,11 +12,11 @@ function useNavigation() {
         goToDemo: () => navigate(`/demo`),
         goToFeatures: () => navigate(`/features`),
         goToFuture: () => navigate(`/future`),
-        goToStart: () => navigate(`/start`),
+        goToStart: (email: string) => navigate(`/start/${email}`),
         goToLogin: () => navigate(`/login`),
         goToNew: () => navigate(`/new`),
         goToCalendars: () => navigate(`/calendars`),
-        goToCalendar: (calendarId: string) => navigate(`/calendars/:${calendarId}`),
+        goToCalendar: (calendarId: string) => navigate(`/calendars/${calendarId}`),
         goToHistory: () => navigate(`/history`),
     };
 }
