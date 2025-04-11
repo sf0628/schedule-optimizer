@@ -1723,6 +1723,2894 @@
           "Allow for flexibility in weekend schedules to accommodate spontaneous activities."
         ]
       }
+    },
+    {
+      "username": "gradstudent1",
+      "input": {
+        "events": [
+          {
+            "id": "event001",
+            "summary": "AI Research Lab",
+            "location": "Computer Science Building, Room 403",
+            "description": "Working on neural network optimization research.",
+            "start": {
+              "dateTime": "2025-04-14T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event002",
+            "summary": "Advanced ML Seminar",
+            "location": "Online (Zoom)",
+            "description": "Weekly seminar on machine learning advancements.",
+            "start": {
+              "dateTime": "2025-04-14T14:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event003",
+            "summary": "Coffee with Professor",
+            "location": "Campus Café",
+            "description": "Thesis discussion with advisor.",
+            "start": {
+              "dateTime": "2025-04-14T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T17:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event004",
+            "summary": "Dinner with Roommates",
+            "location": "Apartment",
+            "description": "Making tacos together.",
+            "start": {
+              "dateTime": "2025-04-14T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T20:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event005",
+            "summary": "Morning Run",
+            "location": "Riverside Park",
+            "description": "5K morning jog.",
+            "start": {
+              "dateTime": "2025-04-15T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T07:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event006",
+            "summary": "Tutoring Undergrad",
+            "location": "Library, Study Room 5",
+            "description": "Private tutoring session for CS301.",
+            "start": {
+              "dateTime": "2025-04-15T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event007",
+            "summary": "Dentist Appointment",
+            "location": "Downtown Dental Clinic",
+            "description": "Routine cleaning and check-up.",
+            "start": {
+              "dateTime": "2025-04-15T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event008",
+            "summary": "Thesis Writing",
+            "location": "Home Office",
+            "description": "Working on dissertation chapter.",
+            "start": {
+              "dateTime": "2025-04-15T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event009",
+            "summary": "Online Gaming",
+            "location": "Home",
+            "description": "Playing Elden Ring 2 with friends.",
+            "start": {
+              "dateTime": "2025-04-15T20:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T22:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event010",
+            "summary": "Teaching Assistant",
+            "location": "Computer Science Building, Room 210",
+            "description": "Leading undergraduate lab session.",
+            "start": {
+              "dateTime": "2025-04-16T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event011",
+            "summary": "AI Research Lab",
+            "location": "Computer Science Building, Room 403",
+            "description": "Working on neural network optimization research.",
+            "start": {
+              "dateTime": "2025-04-16T11:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event012",
+            "summary": "Research Group Meeting",
+            "location": "Computer Science Building, Room 405",
+            "description": "Weekly research progress updates.",
+            "start": {
+              "dateTime": "2025-04-16T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event013",
+            "summary": "Yoga Class",
+            "location": "University Recreation Center",
+            "description": "Vinyasa flow class.",
+            "start": {
+              "dateTime": "2025-04-16T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event014",
+            "summary": "Morning Run",
+            "location": "Riverside Park",
+            "description": "5K morning jog.",
+            "start": {
+              "dateTime": "2025-04-17T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T07:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event015",
+            "summary": "Conference Call",
+            "location": "Online",
+            "description": "Industry collaboration project update.",
+            "start": {
+              "dateTime": "2025-04-17T11:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event016",
+            "summary": "Lunch with Friend",
+            "location": "Thai Restaurant",
+            "description": "Catching up with old classmate.",
+            "start": {
+              "dateTime": "2025-04-17T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event017",
+            "summary": "Department Seminar",
+            "location": "Science Center, Room 101",
+            "description": "Guest speaker from Stanford.",
+            "start": {
+              "dateTime": "2025-04-17T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event018",
+            "summary": "Study Group",
+            "location": "Coffee Shop",
+            "description": "Advanced algorithms study session.",
+            "start": {
+              "dateTime": "2025-04-17T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T20:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event019",
+            "summary": "Paper Review",
+            "location": "Home Office",
+            "description": "Reviewing conference submissions.",
+            "start": {
+              "dateTime": "2025-04-18T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event020",
+            "summary": "Virtual Conference",
+            "location": "Online",
+            "description": "International AI Ethics Symposium.",
+            "start": {
+              "dateTime": "2025-04-18T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event021",
+            "summary": "Dinner Party",
+            "location": "Friend's Apartment",
+            "description": "Potluck dinner with research colleagues.",
+            "start": {
+              "dateTime": "2025-04-18T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T22:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event022",
+            "summary": "Farmer's Market",
+            "location": "Downtown Plaza",
+            "description": "Shopping for fresh produce.",
+            "start": {
+              "dateTime": "2025-04-19T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event023",
+            "summary": "Volunteer Work",
+            "location": "Community Center",
+            "description": "Teaching coding to high school students.",
+            "start": {
+              "dateTime": "2025-04-19T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event024",
+            "summary": "Museum Visit",
+            "location": "Modern Art Museum",
+            "description": "New AI-generated art exhibition.",
+            "start": {
+              "dateTime": "2025-04-19T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event025",
+            "summary": "Concert",
+            "location": "City Music Hall",
+            "description": "Classical piano performance.",
+            "start": {
+              "dateTime": "2025-04-19T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T22:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Research lab work is consistently scheduled on Monday and Wednesday mornings.",
+          "Morning runs occur on Tuesdays and Thursdays before 8am.",
+          "Academic commitments (teaching, seminars, meetings) are prioritized during weekday business hours.",
+          "Social and personal activities are typically scheduled in evenings and weekends.",
+          "Exercise and wellness activities are distributed throughout the week."
+        ],
+        "suggestions": [
+          "Consider blocking out dedicated thesis writing time on additional weekdays.",
+          "Weekend schedule allows for flexibility and spontaneous activities."
+        ]
+      }
+    },
+    {
+      "username": "designer1",
+      "input": {
+        "events": [
+          {
+            "id": "event001",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-14T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event002",
+            "summary": "Client Project: Tech Startup",
+            "location": "Home Office",
+            "description": "UI/UX design for mobile app.",
+            "start": {
+              "dateTime": "2025-04-14T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event003",
+            "summary": "Coffee Shop Work",
+            "location": "Downtown Cafe",
+            "description": "Change of environment for creativity.",
+            "start": {
+              "dateTime": "2025-04-14T13:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event004",
+            "summary": "Pottery Class",
+            "location": "Community Art Center",
+            "description": "Weekly ceramics lesson.",
+            "start": {
+              "dateTime": "2025-04-14T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T20:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event005",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-15T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event006",
+            "summary": "Client Meeting: Healthcare",
+            "location": "Client Office",
+            "description": "Initial consultation for website redesign.",
+            "start": {
+              "dateTime": "2025-04-15T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event007",
+            "summary": "Networking Lunch",
+            "location": "Business District Restaurant",
+            "description": "Meeting with other local designers.",
+            "start": {
+              "dateTime": "2025-04-15T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event008",
+            "summary": "Photography Session",
+            "location": "Botanical Gardens",
+            "description": "Taking photos for design inspiration.",
+            "start": {
+              "dateTime": "2025-04-15T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event009",
+            "summary": "Yoga Class",
+            "location": "Yoga Studio",
+            "description": "Hot yoga session.",
+            "start": {
+              "dateTime": "2025-04-15T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event010",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-16T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event011",
+            "summary": "Freelancers Coworking",
+            "location": "Coworking Space",
+            "description": "Working alongside other freelancers.",
+            "start": {
+              "dateTime": "2025-04-16T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event012",
+            "summary": "Online Design Course",
+            "location": "Home Office",
+            "description": "Advanced UI animation techniques.",
+            "start": {
+              "dateTime": "2025-04-16T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event013",
+            "summary": "Board Game Night",
+            "location": "Friend's House",
+            "description": "Weekly game night with friends.",
+            "start": {
+              "dateTime": "2025-04-16T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T22:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event014",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-17T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event015",
+            "summary": "Client Project: Non-profit",
+            "location": "Home Office",
+            "description": "Brand identity design work.",
+            "start": {
+              "dateTime": "2025-04-17T08:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event016",
+            "summary": "Dentist Appointment",
+            "location": "Dental Office",
+            "description": "Regular check-up.",
+            "start": {
+              "dateTime": "2025-04-17T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event017",
+            "summary": "Portfolio Updates",
+            "location": "Home Office",
+            "description": "Updating online portfolio with recent work.",
+            "start": {
+              "dateTime": "2025-04-17T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event018",
+            "summary": "Yoga Class",
+            "location": "Yoga Studio",
+            "description": "Hot yoga session.",
+            "start": {
+              "dateTime": "2025-04-17T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T19:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event019",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-18T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event020",
+            "summary": "Client Video Call",
+            "location": "Home Office",
+            "description": "Presenting website design concepts.",
+            "start": {
+              "dateTime": "2025-04-18T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T11:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event021",
+            "summary": "Design Community Meetup",
+            "location": "Creative Hub",
+            "description": "Monthly gathering with local designers.",
+            "start": {
+              "dateTime": "2025-04-18T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T14:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event022",
+            "summary": "Personal Project",
+            "location": "Coffee Shop",
+            "description": "Working on illustration series.",
+            "start": {
+              "dateTime": "2025-04-18T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event023",
+            "summary": "Happy Hour",
+            "location": "Downtown Bar",
+            "description": "Social drinks with industry friends.",
+            "start": {
+              "dateTime": "2025-04-18T18:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T20:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event024",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-19T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event025",
+            "summary": "Farmers Market",
+            "location": "City Park",
+            "description": "Shopping for fresh produce.",
+            "start": {
+              "dateTime": "2025-04-19T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event026",
+            "summary": "Art Gallery Opening",
+            "location": "Downtown Gallery",
+            "description": "Supporting friend's exhibition.",
+            "start": {
+              "dateTime": "2025-04-19T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event027",
+            "summary": "Dinner Party",
+            "location": "Friend's Apartment",
+            "description": "Social gathering with creative friends.",
+            "start": {
+              "dateTime": "2025-04-19T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T22:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event028",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Daily mindfulness practice.",
+            "start": {
+              "dateTime": "2025-04-20T06:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T06:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=DAILY"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event029",
+            "summary": "Weekly Planning",
+            "location": "Home Office",
+            "description": "Setting goals and schedule for coming week.",
+            "start": {
+              "dateTime": "2025-04-20T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event030",
+            "summary": "Family Video Call",
+            "location": "Home",
+            "description": "Weekly catch-up with parents.",
+            "start": {
+              "dateTime": "2025-04-20T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Morning meditation is a daily routine that starts each day at 6:00 AM.",
+          "Work hours vary significantly day-to-day with no fixed schedule.",
+          "Client work and meetings are primarily scheduled during weekday business hours.",
+          "Creative and personal projects are often scheduled for afternoons.",
+          "Wellness activities (yoga, meditation) are consistent fixtures in the schedule.",
+          "Social and recreational activities typically occur in evenings and weekends.",
+          "Wednesdays feature a consistent coworking arrangement at a dedicated space."
+        ],
+        "suggestions": [
+          "Consider allocating specific days for different client projects to improve focus.",
+          "The flexible schedule enables adaptation to energy levels throughout the day.",
+          "Sunday planning sessions help structure the variable freelance workweek."
+        ]
+      }
+    },
+    {
+      "username": "salesrep3",
+      "input": {
+        "events": [
+          {
+            "id": "event001",
+            "summary": "Team Stand-up Meeting",
+            "location": "Company HQ, Conference Room A",
+            "description": "Daily team check-in and priorities.",
+            "start": {
+              "dateTime": "2025-04-14T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event002",
+            "summary": "Client Call: ABC Corp",
+            "location": "Office",
+            "description": "Follow-up on proposal.",
+            "start": {
+              "dateTime": "2025-04-14T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event003",
+            "summary": "Lunch Meeting: Prospect",
+            "location": "Downtown Restaurant",
+            "description": "Initial meeting with potential client.",
+            "start": {
+              "dateTime": "2025-04-14T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event004",
+            "summary": "Sales Pipeline Review",
+            "location": "Office",
+            "description": "Individual review with sales manager.",
+            "start": {
+              "dateTime": "2025-04-14T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event005",
+            "summary": "Gym Workout",
+            "location": "Fitness Center",
+            "description": "Personal training session.",
+            "start": {
+              "dateTime": "2025-04-14T17:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-14T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event006",
+            "summary": "Team Stand-up Meeting",
+            "location": "Company HQ, Conference Room A",
+            "description": "Daily team check-in and priorities.",
+            "start": {
+              "dateTime": "2025-04-15T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event007",
+            "summary": "Site Visit: XYZ Industries",
+            "location": "Client HQ",
+            "description": "Product demonstration and discussion.",
+            "start": {
+              "dateTime": "2025-04-15T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T12:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event008",
+            "summary": "Proposal Writing",
+            "location": "Office",
+            "description": "Drafting proposal for new client.",
+            "start": {
+              "dateTime": "2025-04-15T13:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event009",
+            "summary": "Product Training",
+            "location": "Office Training Room",
+            "description": "Training on new product features.",
+            "start": {
+              "dateTime": "2025-04-15T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event010",
+            "summary": "Industry Networking Event",
+            "location": "Downtown Hotel",
+            "description": "Annual technology networking mixer.",
+            "start": {
+              "dateTime": "2025-04-15T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-15T20:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event011",
+            "summary": "Team Stand-up Meeting",
+            "location": "Company HQ, Conference Room A",
+            "description": "Daily team check-in and priorities.",
+            "start": {
+              "dateTime": "2025-04-16T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event012",
+            "summary": "Conference Call: Partner",
+            "location": "Office",
+            "description": "Quarterly business review.",
+            "start": {
+              "dateTime": "2025-04-16T09:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T10:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event013",
+            "summary": "Sales Team Meeting",
+            "location": "Company HQ, Conference Room B",
+            "description": "Weekly sales team update and strategy.",
+            "start": {
+              "dateTime": "2025-04-16T11:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event014",
+            "summary": "Client Entertainment: Golf",
+            "location": "Meadow Lakes Country Club",
+            "description": "Relationship building with key client.",
+            "start": {
+              "dateTime": "2025-04-16T13:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event015",
+            "summary": "Gym Workout",
+            "location": "Fitness Center",
+            "description": "Personal training session.",
+            "start": {
+              "dateTime": "2025-04-16T17:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-16T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event016",
+            "summary": "Team Stand-up Meeting",
+            "location": "Company HQ, Conference Room A",
+            "description": "Daily team check-in and priorities.",
+            "start": {
+              "dateTime": "2025-04-17T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event017",
+            "summary": "Sales Presentation: New Client",
+            "location": "Prospect Office",
+            "description": "Presenting solution to potential client.",
+            "start": {
+              "dateTime": "2025-04-17T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event018",
+            "summary": "CRM Updates",
+            "location": "Office",
+            "description": "Administrative work updating client records.",
+            "start": {
+              "dateTime": "2025-04-17T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event019",
+            "summary": "Market Research",
+            "location": "Office",
+            "description": "Analyzing competitor offerings.",
+            "start": {
+              "dateTime": "2025-04-17T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event020",
+            "summary": "Dinner: Spouse",
+            "location": "Upscale Restaurant",
+            "description": "Weekly date night.",
+            "start": {
+              "dateTime": "2025-04-17T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-17T21:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event021",
+            "summary": "Team Stand-up Meeting",
+            "location": "Company HQ, Conference Room A",
+            "description": "Daily team check-in and priorities.",
+            "start": {
+              "dateTime": "2025-04-18T08:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T09:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event022",
+            "summary": "Quarterly Business Review",
+            "location": "Company HQ, Board Room",
+            "description": "Department performance review.",
+            "start": {
+              "dateTime": "2025-04-18T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event023",
+            "summary": "Client Follow-up Calls",
+            "location": "Office",
+            "description": "Checking in with various clients.",
+            "start": {
+              "dateTime": "2025-04-18T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T15:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event024",
+            "summary": "Expense Reports",
+            "location": "Office",
+            "description": "Submitting weekly expenses.",
+            "start": {
+              "dateTime": "2025-04-18T15:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T16:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event025",
+            "summary": "Gym Workout",
+            "location": "Fitness Center",
+            "description": "Personal training session.",
+            "start": {
+              "dateTime": "2025-04-18T17:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T18:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event026",
+            "summary": "Happy Hour: Team",
+            "location": "Local Bar",
+            "description": "Casual team social event.",
+            "start": {
+              "dateTime": "2025-04-18T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-18T21:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event027",
+            "summary": "Kids' Soccer Game",
+            "location": "Community Sports Field",
+            "description": "Supporting children's sports activities.",
+            "start": {
+              "dateTime": "2025-04-19T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T12:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event028",
+            "summary": "Home Improvement Project",
+            "location": "Home",
+            "description": "Working on backyard landscaping.",
+            "start": {
+              "dateTime": "2025-04-19T14:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T17:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event029",
+            "summary": "Dinner with Friends",
+            "location": "Friend's House",
+            "description": "Social gathering with couples.",
+            "start": {
+              "dateTime": "2025-04-19T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-19T22:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": [],
+            "status": "confirmed"
+          },
+          {
+            "id": "event030",
+            "summary": "Church Service",
+            "location": "Local Church",
+            "description": "Weekly worship service.",
+            "start": {
+              "dateTime": "2025-04-20T10:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T11:30:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event031",
+            "summary": "Family Lunch",
+            "location": "Parents' House",
+            "description": "Extended family gathering.",
+            "start": {
+              "dateTime": "2025-04-20T13:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T16:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+            "status": "confirmed"
+          },
+          {
+            "id": "event032",
+            "summary": "Week Planning",
+            "location": "Home Office",
+            "description": "Preparing for upcoming week.",
+            "start": {
+              "dateTime": "2025-04-20T19:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-04-20T20:00:00-04:00",
+              "timeZone": "America/New_York"
+            },
+            "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Weekday mornings begin with an 8:30 AM team stand-up meeting.",
+          "Client-facing activities (meetings, presentations, site visits) are prioritized in morning hours.",
+          "Administrative tasks like CRM updates and expense reports are typically scheduled for Thursday and Friday afternoons.",
+          "Wednesday features a regular sales team meeting at 11:00 AM.",
+          "Workout sessions occur three times per week on Monday, Wednesday, and Friday evenings.",
+          "Weekends are predominantly reserved for family activities and personal commitments.",
+          "Thursday evenings are consistently reserved for date night with spouse.",
+          "Sunday evenings include weekly planning for the upcoming business week."
+        ],
+        "suggestions": [
+          "Client entertainment and relationship building appears to be a key priority in the schedule.",
+          "The schedule balances structured recurring meetings with flexible time for sales activities.",
+          "Consider blocking additional time for proposal preparation and follow-up activities after client meetings."
+        ]
+      }
+    },
+    {
+      "username": "test10",
+      "input": {
+        "events":[
+        {
+          "id": "event001",
+          "summary": "Morning Yoga",
+          "location": "Local Studio",
+          "description": "Vinyasa flow class to start the day.",
+          "start": {
+            "dateTime": "2025-04-07T06:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T07:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Marketing Strategy Meeting",
+          "location": "Conference Room B",
+          "description": "Weekly team planning and KPI review.",
+          "start": {
+            "dateTime": "2025-04-07T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+          "attendees": [
+            {
+              "email": "marketing.team@example.com"
+            },
+            {
+              "email": "product.team@example.com"
+            }
+          ],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Client Project Work",
+          "location": "Office",
+          "description": "Focused time on client deliverables.",
+          "start": {
+            "dateTime": "2025-04-07T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T16:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Evening MBA Class",
+          "location": "Business School, Room 304",
+          "description": "Marketing Analytics course.",
+          "start": {
+            "dateTime": "2025-04-07T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T21:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Book Club",
+          "location": "Local Bookstore",
+          "description": "Monthly discussion of selected book.",
+          "start": {
+            "dateTime": "2025-04-15T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-15T20:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=15"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "Weekend Farmers Market",
+          "location": "Downtown Market",
+          "description": "Weekly grocery shopping at local market.",
+          "start": {
+            "dateTime": "2025-04-12T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Family Dinner",
+          "location": "Parents' House",
+          "description": "Weekly family gathering.",
+          "start": {
+            "dateTime": "2025-04-13T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-13T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Early mornings are reserved for wellness activities.",
+          "Work hours are standard business hours with meetings primarily in the mornings.",
+          "Evenings on Monday and Wednesday are dedicated to education.",
+          "Weekends are structured around personal activities and family time."
+        ],
+        "suggestions": [
+          "Consider adding buffer time between work and evening classes for commuting and mental transition."
+        ]
+      }
+    },
+    
+    {
+      "username": "test11",
+      "input": {
+        "events":[
+        {
+          "id": "event001",
+          "summary": "High School Physics Class",
+          "location": "Jefferson High, Room 203",
+          "description": "Teaching AP Physics to seniors.",
+          "start": {
+            "dateTime": "2025-04-07T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T09:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Office Hours",
+          "location": "Faculty Office",
+          "description": "Student consultation and help sessions.",
+          "start": {
+            "dateTime": "2025-04-07T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T11:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Faculty Meeting",
+          "location": "Conference Room",
+          "description": "Weekly staff and curriculum planning.",
+          "start": {
+            "dateTime": "2025-04-08T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T14:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Science Club Mentoring",
+          "location": "Science Lab",
+          "description": "After-school club for science competitions.",
+          "start": {
+            "dateTime": "2025-04-07T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T16:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Grading and Planning",
+          "location": "Home Office",
+          "description": "Assessment and lesson preparation.",
+          "start": {
+            "dateTime": "2025-04-09T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE,SU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "Community Orchestra Practice",
+          "location": "Community Center",
+          "description": "Violin section rehearsal.",
+          "start": {
+            "dateTime": "2025-04-10T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-10T21:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Saturday Farmers Market",
+          "location": "Downtown Market",
+          "description": "Weekly grocery shopping.",
+          "start": {
+            "dateTime": "2025-04-12T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event008",
+          "summary": "Community Garden Volunteer",
+          "location": "Neighborhood Garden",
+          "description": "Weekly gardening session.",
+          "start": {
+            "dateTime": "2025-04-12T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Teaching responsibilities are concentrated in morning hours.",
+          "Office hours follow teaching periods to accommodate student needs.",
+          "Afternoons are reserved for mentoring and administrative tasks.",
+          "Evenings are dedicated to personal enrichment and preparation.",
+          "Weekends balance community involvement and preparation for the week ahead."
+        ],
+        "suggestions": [
+          "Consider blocking off dedicated lunch periods between morning and afternoon commitments."
+        ]
+      }
+    },
+    
+    {
+      "username": "test12",
+      "input": {
+        "events": [
+        {
+          "id": "event001",
+          "summary": "Hospital Rounds",
+          "location": "General Hospital, Ward 3",
+          "description": "Morning patient visits and case review.",
+          "start": {
+            "dateTime": "2025-04-07T07:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Clinic Hours",
+          "location": "Medical Office",
+          "description": "Patient appointments and consultations.",
+          "start": {
+            "dateTime": "2025-04-07T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Surgery Block",
+          "location": "General Hospital, OR 2",
+          "description": "Scheduled surgical procedures.",
+          "start": {
+            "dateTime": "2025-04-09T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Medical Research",
+          "location": "University Laboratory",
+          "description": "Clinical research project work.",
+          "start": {
+            "dateTime": "2025-04-11T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-11T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Medical Conference Call",
+          "location": "Online",
+          "description": "International research collaboration.",
+          "start": {
+            "dateTime": "2025-04-08T07:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "Medical Journal Review",
+          "location": "Home Office",
+          "description": "Keeping up with latest research.",
+          "start": {
+            "dateTime": "2025-04-10T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-10T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Tennis Match",
+          "location": "Country Club",
+          "description": "Weekly doubles game with colleagues.",
+          "start": {
+            "dateTime": "2025-04-12T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event008",
+          "summary": "Family Time",
+          "location": "Home",
+          "description": "Reserved family day.",
+          "start": {
+            "dateTime": "2025-04-13T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-13T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event009",
+          "summary": "On-Call Shift",
+          "location": "General Hospital",
+          "description": "Emergency department coverage.",
+          "start": {
+            "dateTime": "2025-04-18T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-19T06:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=18"],
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Hospital rounds are always early in the morning on specific days.",
+          "Clinical practice and surgical procedures are allocated to separate days.",
+          "Research activities are concentrated on Fridays.",
+          "Early mornings are utilized for international collaboration.",
+          "Sundays are strictly protected for family time."
+        ],
+        "suggestions": [
+          "Schedule recovery time after on-call shifts to avoid burnout.",
+          "Consider shifting some medical reading to digital formats during commute times."
+        ]
+      }
+    },
+    
+    {
+      "username": "test13",
+      "input": {
+        "events": [
+        {
+          "id": "event001",
+          "summary": "Morning Meditation",
+          "location": "Home",
+          "description": "Daily mindfulness practice.",
+          "start": {
+            "dateTime": "2025-04-07T06:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T06:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=DAILY"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Content Creation",
+          "location": "Home Studio",
+          "description": "Recording videos for YouTube channel.",
+          "start": {
+            "dateTime": "2025-04-07T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Video Editing",
+          "location": "Home Office",
+          "description": "Post-production for channel content.",
+          "start": {
+            "dateTime": "2025-04-08T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Social Media Management",
+          "location": "Coffee Shop",
+          "description": "Content scheduling and community engagement.",
+          "start": {
+            "dateTime": "2025-04-07T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Brand Partnership Meeting",
+          "location": "Zoom",
+          "description": "Discussing sponsorship opportunities.",
+          "start": {
+            "dateTime": "2025-04-09T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "Content Planning",
+          "location": "Home Office",
+          "description": "Brainstorming and researching future topics.",
+          "start": {
+            "dateTime": "2025-04-09T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Yoga Class",
+          "location": "Local Studio",
+          "description": "Weekly fitness commitment.",
+          "start": {
+            "dateTime": "2025-04-08T17:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T18:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event008",
+          "summary": "Networking Event",
+          "location": "Creator Space",
+          "description": "Monthly creator meetup.",
+          "start": {
+            "dateTime": "2025-04-10T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-10T21:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=10"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event009",
+          "summary": "Weekend Content Consumption",
+          "location": "Home",
+          "description": "Researching industry trends.",
+          "start": {
+            "dateTime": "2025-04-12T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event010",
+          "summary": "Digital Detox",
+          "location": "Nature Park",
+          "description": "Unplugging and recharging.",
+          "start": {
+            "dateTime": "2025-04-13T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-13T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Every day begins with meditation to center the mind.",
+          "Content creation and editing are scheduled on separate days.",
+          "Wednesdays are dedicated to business development and planning.",
+          "Physical activity is scheduled in the late afternoon as a break.",
+          "Sundays are reserved for digital detox and mental recharging."
+        ],
+        "suggestions": [
+          "Consider batching similar tasks on the same days to improve focus and efficiency.",
+          "Build in buffer time between creative work and business tasks."
+        ]
+      }
+    },
+    {
+      "username": "test14",
+      "input": {
+        "events": [
+        {
+          "id": "event001",
+          "summary": "Remote Software Development",
+          "location": "Home Office",
+          "description": "Product feature development sprint work.",
+          "start": {
+            "dateTime": "2025-04-07T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Team Standup",
+          "location": "Zoom",
+          "description": "Daily scrum with engineering team.",
+          "start": {
+            "dateTime": "2025-04-07T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T12:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Lunch Break",
+          "location": "Home",
+          "description": "Lunch and short reset break.",
+          "start": {
+            "dateTime": "2025-04-07T12:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T13:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Sprint Planning",
+          "location": "Zoom",
+          "description": "Bi-weekly project planning session.",
+          "start": {
+            "dateTime": "2025-04-07T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T15:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Afternoon Coding Block",
+          "location": "Home Office",
+          "description": "Focused development time with no meetings.",
+          "start": {
+            "dateTime": "2025-04-07T15:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "1:1 with Manager",
+          "location": "Zoom",
+          "description": "Weekly progress and feedback session.",
+          "start": {
+            "dateTime": "2025-04-08T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T14:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Code Review",
+          "location": "Home Office",
+          "description": "Reviewing team PRs and documentation.",
+          "start": {
+            "dateTime": "2025-04-09T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T15:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=WE"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event008",
+          "summary": "Tech Talk",
+          "location": "Zoom",
+          "description": "Internal company tech presentations.",
+          "start": {
+            "dateTime": "2025-04-10T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-10T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event009",
+          "summary": "Professional Development",
+          "location": "Online Course Platform",
+          "description": "Advanced TypeScript certification course.",
+          "start": {
+            "dateTime": "2025-04-11T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-11T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event010",
+          "summary": "Weekend Project Coding",
+          "location": "Home Office",
+          "description": "Personal coding projects and experiments.",
+          "start": {
+            "dateTime": "2025-04-12T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event011",
+          "summary": "Tech Meetup",
+          "location": "Downtown Co-working Space",
+          "description": "Local developer community event.",
+          "start": {
+            "dateTime": "2025-04-17T18:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-17T20:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=17"],
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Mornings are dedicated to uninterrupted development work.",
+          "Meetings are clustered in the afternoon to preserve focus time.",
+          "Each day includes a fixed lunch break to maintain work-life boundaries.",
+          "Fridays include time for professional development.",
+          "Weekends are reserved for personal coding projects and rest."
+        ],
+        "suggestions": [
+          "Consider implementing a 'no-meeting Wednesday' policy to maximize development focus.",
+          "Add short breaks between coding sessions to prevent burnout."
+        ]
+      }
+    },
+    
+    {
+      "username": "test15",
+      "input": {
+        "events": [
+        {
+          "id": "event001",
+          "summary": "Morning Pages Writing",
+          "location": "Home Office",
+          "description": "Daily creative writing practice.",
+          "start": {
+            "dateTime": "2025-04-07T06:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T07:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=DAILY"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event002",
+          "summary": "Literary Agent Calls",
+          "location": "Home Office",
+          "description": "Check-ins with agent and publishing contacts.",
+          "start": {
+            "dateTime": "2025-04-07T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event003",
+          "summary": "Novel Writing Block",
+          "location": "Local Café",
+          "description": "Current manuscript work.",
+          "start": {
+            "dateTime": "2025-04-07T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event004",
+          "summary": "Creative Writing Workshop",
+          "location": "Community College",
+          "description": "Teaching adult education fiction workshop.",
+          "start": {
+            "dateTime": "2025-04-07T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=MO"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event005",
+          "summary": "Editing Session",
+          "location": "Home Office",
+          "description": "Revising and editing current work.",
+          "start": {
+            "dateTime": "2025-04-08T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU,FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event006",
+          "summary": "Book Club Meeting",
+          "location": "Public Library",
+          "description": "Monthly reading group discussion.",
+          "start": {
+            "dateTime": "2025-04-09T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-09T21:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=MONTHLY;BYMONTHDAY=9"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event007",
+          "summary": "Research Day",
+          "location": "City Archives",
+          "description": "Historical research for upcoming novel.",
+          "start": {
+            "dateTime": "2025-04-11T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-11T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event008",
+          "summary": "Farmers Market",
+          "location": "City Park",
+          "description": "Weekly grocery shopping and inspiration.",
+          "start": {
+            "dateTime": "2025-04-12T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event009",
+          "summary": "Author Reading Series",
+          "location": "Independent Bookstore",
+          "description": "Attending local author events.",
+          "start": {
+            "dateTime": "2025-04-12T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-12T21:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SA"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event010",
+          "summary": "Nature Walk",
+          "location": "State Park",
+          "description": "Weekly inspiration and mental reset.",
+          "start": {
+            "dateTime": "2025-04-13T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-13T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event011",
+          "summary": "Reading Time",
+          "location": "Home Library",
+          "description": "Dedicated time for reading in genre.",
+          "start": {
+            "dateTime": "2025-04-13T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-13T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=SU"],
+          "status": "confirmed"
+        },
+        {
+          "id": "event012",
+          "summary": "Author Conference",
+          "location": "Grand Hotel",
+          "description": "Annual writers' convention.",
+          "start": {
+            "dateTime": "2025-06-15T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-06-18T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "confirmed"
+        }
+      ]},
+      "output": {
+        "rules": [
+          "Every day begins with morning pages writing practice.",
+          "Primary creative writing happens in the morning to early afternoon.",
+          "Editing is separate from writing and scheduled for different days.",
+          "Fridays are dedicated to research rather than new writing.",
+          "Weekends focus on inspiration and reading rather than production."
+        ],
+        "suggestions": [
+          "Consider adding a midweek short writing session to maintain momentum through the week.",
+          "Block social media during writing hours to maintain creative focus."
+        ]
+      }
+    },
+    {
+      "username": "test16",
+      "input": {
+        "events": [
+          {
+            "id": "physics101",
+            "summary": "Physics Lecture",
+            "location": "Science Building, Room 203",
+            "description": "Introduction to mechanics.",
+            "start": {
+              "dateTime": "2025-05-05T10:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-05T11:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "study-group",
+            "summary": "Study Group",
+            "location": "Library",
+            "description": "Physics problem set collaboration.",
+            "start": {
+              "dateTime": "2025-05-05T13:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-05T15:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "gym-time",
+            "summary": "Workout",
+            "location": "Campus Gym",
+            "description": "Weight training and cardio.",
+            "start": {
+              "dateTime": "2025-05-05T17:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-05T18:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Classes are scheduled in the morning.",
+          "Study sessions follow after a break for lunch.",
+          "Exercise is reserved for late afternoon after academic activities."
+        ],
+        "suggestions": [
+          "Add a short break between study and exercise to avoid fatigue."
+        ]
+      }
+    },
+    
+    {
+      "username": "test17",
+      "input": {
+        "events": [
+          {
+            "id": "meeting1",
+            "summary": "Team Standup",
+            "location": "Conference Room B",
+            "description": "Daily progress update.",
+            "start": {
+              "dateTime": "2025-05-12T09:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-12T09:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "work-block",
+            "summary": "Focus Time",
+            "location": "Office",
+            "description": "Project development without interruptions.",
+            "start": {
+              "dateTime": "2025-05-12T10:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-12T12:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Lunch",
+            "location": "Cafeteria",
+            "description": "Midday meal and break.",
+            "start": {
+              "dateTime": "2025-05-12T12:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-12T13:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "client-call",
+            "summary": "Client Meeting",
+            "location": "Zoom",
+            "description": "Project update and feedback.",
+            "start": {
+              "dateTime": "2025-05-12T14:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-12T15:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Team meetings happen first thing in the morning.",
+          "Focus work is scheduled in the late morning.",
+          "Lunch occurs at noon.",
+          "Client meetings are scheduled in the afternoon."
+        ],
+        "suggestions": [
+          "Add buffer time between client meetings to prepare and follow up.",
+          "Schedule complex focused work earlier in the day when energy is highest."
+        ]
+      }
+    },
+    
+    {
+      "username": "test18",
+      "input": {
+        "events": [
+          {
+            "id": "breakfast",
+            "summary": "Breakfast",
+            "location": "Home",
+            "description": "Morning meal and planning.",
+            "start": {
+              "dateTime": "2025-05-20T07:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-20T08:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "writing",
+            "summary": "Creative Writing",
+            "location": "Home Office",
+            "description": "Working on novel draft.",
+            "start": {
+              "dateTime": "2025-05-20T08:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-20T11:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "walk",
+            "summary": "Neighborhood Walk",
+            "location": "Local Park",
+            "description": "Exercise and fresh air.",
+            "start": {
+              "dateTime": "2025-05-20T12:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-20T13:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "reading",
+            "summary": "Reading Time",
+            "location": "Home",
+            "description": "Reading for research and pleasure.",
+            "start": {
+              "dateTime": "2025-05-20T15:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-20T17:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Mornings begin with a quick breakfast and planning session.",
+          "Creative work happens during peak morning hours.",
+          "Physical activity follows intensive mental work.",
+          "Reading is scheduled in the afternoon when energy for creation is lower."
+        ],
+        "suggestions": [
+          "Consider adding a short meditation session before creative work."
+        ]
+      }
+    },
+    
+    {
+      "username": "test19",
+      "input": {
+        "events": [
+          {
+            "id": "class1",
+            "summary": "Economics 101",
+            "location": "Business Building, Room 305",
+            "description": "Introduction to microeconomics.",
+            "start": {
+              "dateTime": "2025-05-15T09:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-15T10:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "class2",
+            "summary": "Business Ethics",
+            "location": "Business Building, Room 210",
+            "description": "Case studies in corporate ethics.",
+            "start": {
+              "dateTime": "2025-05-15T11:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-15T12:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Lunch with Study Group",
+            "location": "Campus Café",
+            "description": "Meal and discussion with classmates.",
+            "start": {
+              "dateTime": "2025-05-15T12:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-15T13:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "library",
+            "summary": "Library Research",
+            "location": "Main Library",
+            "description": "Research for economics term paper.",
+            "start": {
+              "dateTime": "2025-05-15T14:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-15T16:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Classes are scheduled back-to-back in the morning.",
+          "Lunch follows immediately after the last class.",
+          "Study and research activities take place in the afternoon.",
+          "All academic activities are completed before dinner time."
+        ],
+        "suggestions": [
+          "Schedule a short break between consecutive classes to review notes."
+        ]
+      }
+    },
+    
+    {
+      "username": "test20",
+      "input": {
+        "events": [
+          {
+            "id": "meditation",
+            "summary": "Morning Meditation",
+            "location": "Home",
+            "description": "Mindfulness practice.",
+            "start": {
+              "dateTime": "2025-05-10T06:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-10T06:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "work",
+            "summary": "Remote Work",
+            "location": "Home Office",
+            "description": "Software development tasks.",
+            "start": {
+              "dateTime": "2025-05-10T08:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-10T12:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "lunch",
+            "summary": "Lunch",
+            "location": "Kitchen",
+            "description": "Meal and short break.",
+            "start": {
+              "dateTime": "2025-05-10T12:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-10T12:45:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "hobby",
+            "summary": "Guitar Practice",
+            "location": "Living Room",
+            "description": "Learning new songs.",
+            "start": {
+              "dateTime": "2025-05-10T17:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-10T18:00:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          },
+          {
+            "id": "friends",
+            "summary": "Movie Night",
+            "location": "Friend's House",
+            "description": "Social gathering.",
+            "start": {
+              "dateTime": "2025-05-10T19:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "end": {
+              "dateTime": "2025-05-10T22:30:00-05:00",
+              "timeZone": "America/New_York"
+            },
+            "status": "confirmed"
+          }
+        ]
+      },
+      "output": {
+        "rules": [
+          "Day begins with mindfulness practice.",
+          "Work is concentrated in the morning hours.",
+          "Hobbies are pursued in the late afternoon after work.",
+          "Social activities are scheduled for evenings.",
+          "Weekend schedule allows for personal activities throughout the day."
+        ],
+        "suggestions": [
+          "Consider adding a short afternoon walk to refresh between work and hobbies."
+        ]
+      }
     }
   ]
 }

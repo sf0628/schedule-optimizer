@@ -110,7 +110,7 @@ def rules_agent(user_query):
         temperature=0.2
     ).choices[0].message.content
     messages.append({"role": "assistant", "content": resp})
-    print(resp)
+    # print(resp)
     return resp
 
 

@@ -1,0 +1,36 @@
+{
+"userid": {
+  "test1": "36fd1e8d-0a07-491a-a758-2fe82116ed1d",
+  "test2": "4d8dcaaf-49c4-4609-adea-c9cf1e0d0ba3",
+  "test3": "0c7a21b8-3233-4ba2-9996-346c4aaabecd",
+  "test4": "824bb6e7-e51f-4aa0-bde4-bf5ad01c3b44",
+  "test5": "74dc6aa6-ec30-497d-9e6a-526c1b220d2e",
+  "test6": "f0d7d065-a0df-4117-a7ac-800801432fc3",
+  "test7": "6516c807-06d6-4d57-81ac-642ee8132a5d",
+  "test8": "80948677-16ec-4a10-b499-c135abc2312f",
+  "test9": "fc178a99-347b-42e5-b0af-4bce8b3b00a3"
+ 
+},
+"email": {
+  "test1": "test_email@mail.com",
+  "test2": "test2_email@mail.com",
+  "test3": "test3_email@mail.com",
+  "test4": "test4_email@mail.com",
+  "test5": "test5_email@mail.com",
+  "test6": "test6_email@mail.com",
+  "test7": "test7_email@mail.com",
+  "test8": "test8_email@mail.com",
+  "test9": "test9_email@mail.com"
+},
+"calendar_id":{
+  "test1": "9e387d2a-837b-4847-8f7b-eba2810a03a3",
+  "test2": "40ac8796-beda-4f1c-94a4-20225040d480",
+  "test3": "c6113127-73d3-4e1d-8d74-18c0e6156f8c",
+  "test4": "0fad4eac-d9ba-4f71-9e57-3d14f009e38f",
+  "test5": "d81cbc06-de8f-4cd7-bd2d-1a8299d2cb56",
+  "test6": "1fd3a243-eb60-4562-935c-2e0f72cd9f1f",
+  "test7": "7cafa31d-b558-455c-8445-aa3cbca0a9f8",
+  "test8": "f17e8267-4e23-4b06-9a98-fbd461d95c80",
+  "test9": "099569df-ff22-43c3-962f-ad1d7ede78ba"
+}
+}

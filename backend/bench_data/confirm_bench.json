@@ -1,0 +1,751 @@
+{
+  "calendar_decisions": [
+    {
+      "username": "test1",
+      "events": [
+        {
+          "id": "physics102",
+          "summary": "Advanced Physics",
+          "location": "Room 303, Science Building",
+          "description": "Lecture on quantum mechanics fundamentals.",
+          "start": {
+            "dateTime": "2025-03-25T08:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-25T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "evening-concert",
+          "summary": "Campus Concert",
+          "location": "University Auditorium",
+          "description": "Live music performance by student bands.",
+          "start": {
+            "dateTime": "2025-03-26T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-26T21:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "project-meeting",
+          "summary": "Group Project Meeting",
+          "location": "Library Study Room 4",
+          "description": "Final planning for engineering project.",
+          "start": {
+            "dateTime": "2025-03-27T17:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-27T19:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "saturday-museum",
+          "summary": "Art Museum Visit",
+          "location": "Metropolitan Museum",
+          "description": "Cultural visit with friends.",
+          "start": {
+            "dateTime": "2025-03-29T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-29T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "physics102",
+          "decision": "accept"
+        },
+        {
+          "event_id": "evening-concert",
+          "decision": "reject"
+        },
+        {
+          "event_id": "project-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "saturday-museum",
+          "decision": "accept"
+        }
+      ]
+    },
+    {
+      "username": "test2",
+      "events": [
+        {
+          "id": "hist201",
+          "summary": "World History",
+          "location": "Room 105, Humanities Building",
+          "description": "Lecture on medieval European history.",
+          "start": {
+            "dateTime": "2025-03-19T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-19T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "back-to-back",
+          "summary": "Economics 101",
+          "location": "Room 205, Business Building",
+          "description": "Introduction to microeconomics.",
+          "start": {
+            "dateTime": "2025-03-20T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-20T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "friday-class",
+          "summary": "Physics Lab",
+          "location": "Science Building, Lab 3",
+          "description": "Practical experiments in mechanics.",
+          "start": {
+            "dateTime": "2025-03-21T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-21T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "hist201",
+          "decision": "accept"
+        },
+        {
+          "event_id": "back-to-back",
+          "decision": "reject"
+        },
+        {
+          "event_id": "friday-class",
+          "decision": "reject"
+        }
+      ]
+    },
+    {
+      "username": "test3",
+      "events": [
+        {
+          "id": "early-meeting",
+          "summary": "Project Kickoff",
+          "location": "Conference Room B",
+          "description": "Initial meeting for new client project.",
+          "start": {
+            "dateTime": "2025-03-20T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-20T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "sewing-club",
+          "summary": "Sewing Workshop",
+          "location": "Community Center",
+          "description": "Learning advanced stitching techniques.",
+          "start": {
+            "dateTime": "2025-03-22T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-22T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "late-night-work",
+          "summary": "Overtime Project Work",
+          "location": "Home Office",
+          "description": "Catching up on project deliverables.",
+          "start": {
+            "dateTime": "2025-03-19T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-19T23:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "group-dinner",
+          "summary": "Team Dinner",
+          "location": "Steakhouse Downtown",
+          "description": "Quarterly team social event.",
+          "start": {
+            "dateTime": "2025-03-24T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-24T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "early-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "sewing-club",
+          "decision": "accept"
+        },
+        {
+          "event_id": "late-night-work",
+          "decision": "reject"
+        },
+        {
+          "event_id": "group-dinner",
+          "decision": "accept"
+        }
+      ]
+    },
+    {
+      "username": "test4",
+      "events": [
+        {
+          "id": "late-workout",
+          "summary": "Weekend Workout",
+          "location": "Home Gym",
+          "description": "Saturday fitness session.",
+          "start": {
+            "dateTime": "2025-03-29T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-29T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "lunch-meeting",
+          "summary": "Project Lunch Meeting",
+          "location": "Cafe Near Office",
+          "description": "Informal project discussion over lunch.",
+          "start": {
+            "dateTime": "2025-03-26T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-26T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "late-night-class",
+          "summary": "Evening Seminar",
+          "location": "Online",
+          "description": "Special guest lecture on machine learning.",
+          "start": {
+            "dateTime": "2025-03-24T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-24T21:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "weekend-work",
+          "summary": "Weekend Catch-up",
+          "location": "Home Office",
+          "description": "Preparing materials for Monday's class.",
+          "start": {
+            "dateTime": "2025-03-30T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-03-30T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "late-workout",
+          "decision": "reject"
+        },
+        {
+          "event_id": "lunch-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "late-night-class",
+          "decision": "reject"
+        },
+        {
+          "event_id": "weekend-work",
+          "decision": "reject"
+        }
+      ]
+    },
+    {
+      "username": "test5",
+      "events": [
+        {
+          "id": "afternoon-lecture",
+          "summary": "Advanced Biology",
+          "location": "Science Hall Room 401",
+          "description": "Lecture on genetics and DNA replication.",
+          "start": {
+            "dateTime": "2025-04-02T15:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-02T17:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "study-session",
+          "summary": "Biology Review",
+          "location": "Library Study Room",
+          "description": "Post-lab review session.",
+          "start": {
+            "dateTime": "2025-04-03T12:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-03T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "gap-class",
+          "summary": "Chemistry Lecture",
+          "location": "Science Hall Room 202",
+          "description": "Introduction to organic chemistry.",
+          "start": {
+            "dateTime": "2025-04-04T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-04T10:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "delayed-lunch",
+          "summary": "Late Lunch",
+          "location": "Off-campus Restaurant",
+          "description": "Lunch with study group.",
+          "start": {
+            "dateTime": "2025-04-03T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-03T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "afternoon-lecture",
+          "decision": "reject"
+        },
+        {
+          "event_id": "study-session",
+          "decision": "accept"
+        },
+        {
+          "event_id": "gap-class",
+          "decision": "accept"
+        },
+        {
+          "event_id": "delayed-lunch",
+          "decision": "reject"
+        }
+      ]
+    },
+    {
+      "username": "test6",
+      "events": [
+        {
+          "id": "early-meeting",
+          "summary": "Project Planning",
+          "location": "Conference Room",
+          "description": "Planning session for new project.",
+          "start": {
+            "dateTime": "2025-04-04T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-04T09:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "afternoon-focus",
+          "summary": "Coding Session",
+          "location": "Home Office",
+          "description": "Focused development time.",
+          "start": {
+            "dateTime": "2025-04-05T13:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-05T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "quick-standup",
+          "summary": "Quick Team Check-in",
+          "location": "Slack Huddle",
+          "description": "15-minute project alignment.",
+          "start": {
+            "dateTime": "2025-04-06T09:15:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-06T09:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "post-work-meeting",
+          "summary": "Debrief Session",
+          "location": "Zoom",
+          "description": "Follow-up on deep work session.",
+          "start": {
+            "dateTime": "2025-04-05T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-05T16:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "early-meeting",
+          "decision": "reject"
+        },
+        {
+          "event_id": "afternoon-focus",
+          "decision": "accept"
+        },
+        {
+          "event_id": "quick-standup",
+          "decision": "accept"
+        },
+        {
+          "event_id": "post-work-meeting",
+          "decision": "reject"
+        }
+      ]
+    },
+    {
+      "username": "test7",
+      "events": [
+        {
+          "id": "early-meeting",
+          "summary": "Team Strategy Meeting",
+          "location": "Conference Room B",
+          "description": "Quarterly planning session.",
+          "start": {
+            "dateTime": "2025-04-07T09:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "lunch-meeting",
+          "summary": "Working Lunch",
+          "location": "Office Cafeteria",
+          "description": "Discussion continued from morning meeting.",
+          "start": {
+            "dateTime": "2025-04-07T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "writing-break",
+          "summary": "Coffee Break",
+          "location": "Break Room",
+          "description": "Short break from report writing.",
+          "start": {
+            "dateTime": "2025-04-08T14:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "evening-personal",
+          "summary": "Family Dinner",
+          "location": "Home",
+          "description": "Dinner with visiting relatives.",
+          "start": {
+            "dateTime": "2025-04-07T18:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "report-meeting",
+          "summary": "Report Review Meeting",
+          "location": "Conference Room A",
+          "description": "Team review of quarterly report draft.",
+          "start": {
+            "dateTime": "2025-04-08T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-08T15:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "early-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "lunch-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "writing-break",
+          "decision": "accept"
+        },
+        {
+          "event_id": "evening-personal",
+          "decision": "accept"
+        },
+        {
+          "event_id": "report-meeting",
+          "decision": "reject"
+        }
+      ]
+    },
+    {
+      "username": "test8",
+      "events": [
+        {
+          "id": "late-study",
+          "summary": "Evening Study Session",
+          "location": "Dorm Room",
+          "description": "Reviewing material for upcoming exam.",
+          "start": {
+            "dateTime": "2025-04-03T20:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-03T22:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "study-right-after",
+          "summary": "Physics Study",
+          "location": "Library",
+          "description": "Review physics material from morning lecture.",
+          "start": {
+            "dateTime": "2025-04-05T12:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-05T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "group-study-gap",
+          "summary": "Math Study Group",
+          "location": "Student Center",
+          "description": "Collaborative problem solving session.",
+          "start": {
+            "dateTime": "2025-04-06T15:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-06T16:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "study-break",
+          "summary": "Break Between Studies",
+          "location": "Campus Café",
+          "description": "Coffee and relaxation between study sessions.",
+          "start": {
+            "dateTime": "2025-04-04T14:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-04T14:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "late-study",
+          "decision": "reject"
+        },
+        {
+          "event_id": "study-right-after",
+          "decision": "accept"
+        },
+        {
+          "event_id": "group-study-gap",
+          "decision": "accept"
+        },
+        {
+          "event_id": "study-break",
+          "decision": "accept"
+        }
+      ]
+    },
+    {
+      "username": "test9",
+      "events": [
+        {
+          "id": "morning-wellness",
+          "summary": "Morning Yoga",
+          "location": "Home",
+          "description": "Gentle stretching and breathing exercises.",
+          "start": {
+            "dateTime": "2025-04-05T07:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-05T08:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "art-admin",
+          "summary": "Art Studio Admin",
+          "location": "Creative Studio",
+          "description": "Managing studio bookings and supplies.",
+          "start": {
+            "dateTime": "2025-04-06T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-06T11:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "therapy-meeting",
+          "summary": "Therapist Appointment",
+          "location": "Wellness Center",
+          "description": "Weekly therapy session.",
+          "start": {
+            "dateTime": "2025-04-07T10:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T11:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        },
+        {
+          "id": "inconsistent-meditation",
+          "summary": "Evening Meditation",
+          "location": "Home",
+          "description": "Mindfulness practice before sleep.",
+          "start": {
+            "dateTime": "2025-04-07T21:00:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "end": {
+            "dateTime": "2025-04-07T21:30:00-05:00",
+            "timeZone": "America/New_York"
+          },
+          "status": "tentative"
+        }
+      ],
+      "decisions": [
+        {
+          "event_id": "morning-wellness",
+          "decision": "accept"
+        },
+        {
+          "event_id": "art-admin",
+          "decision": "reject"
+        },
+        {
+          "event_id": "therapy-meeting",
+          "decision": "accept"
+        },
+        {
+          "event_id": "inconsistent-meditation",
+          "decision": "reject"
+        }
+      ]
+    }
+  ]
+}
