@@ -4,6 +4,8 @@ env
 .env
 credentials.json
 
+# google secrets
+backend/src/token.json
 # Dependency directories
 node_modules/
 
