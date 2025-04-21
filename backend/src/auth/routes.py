@@ -2,6 +2,7 @@ from flask import Blueprint, redirect, request, jsonify, make_response
 from flask_session import Session
 from google_auth_oauthlib.flow import Flow
 from dotenv import load_dotenv
+import requests
 import secrets
 from calendar_api.service import get_service, SCOPES
 from utils.utils import get_credentials_path
@@ -23,7 +24,7 @@ def auth_status():
         return jsonify({"authenticated": True}), 200
     return jsonify({"authenticated": False}), 200
 
-@auth_bp.route("/login")
+@auth_bp.route("/login/")
 def login():
     """Start the OAuth flow"""
     try:
@@ -49,7 +50,7 @@ def login():
         response.set_cookie(
             'oauth_state', 
             state, 
-            max_age=300,  # 5 minutes
+            max_age=10000000,
             httponly=True,
             samesite='Lax'
         )
@@ -89,7 +90,7 @@ def oauth_callback():
         creds = flow.credentials
         with open("token.json", "w") as token:
             token.write(creds.to_json())
-            
+
         response = make_response(redirect("http://localhost:5173/oauth/authorize"))
         response.delete_cookie('oauth_state')
         return response
@@ -97,18 +98,24 @@ def oauth_callback():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@auth_bp.route("/profile")
+@auth_bp.route("/email")
 def profile():
-    """Get profile information"""
-    if os.path.exists("token.json"):
-        service = get_service()
-        try:
-            profile_info = service.profile().get().execute()
-            return jsonify(profile_info)
-        except Exception as e:
-            return jsonify({"error": str(e)}), 500
-    else:
-        return jsonify({"error": "Unauthorized"}), 401
+    """Get email information"""
+    try:
+        service = get_service("people", "v1")
+        if not service:
+            return jsonify({"error": "Not authenticated"}), 401
+        response = service.people().get(resourceName='people/me', personFields='emailAddresses').execute()
+        if not response:
+            return jsonify({"error": "Failed to fetch user info"}), 400
+        email_addresses = response.get('emailAddresses', [])
+        primary_email = next((email['value'] for email in email_addresses if email.get('metadata', {}).get('primary')), None)
+        if not primary_email and email_addresses:
+            primary_email = email_addresses[0]['value']
+        return jsonify({"email": primary_email})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+            
 
 @auth_bp.route("/logout")
 def logout():

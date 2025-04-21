@@ -6,6 +6,7 @@ from .rules import rules_agent
 from .embeddings import generate_embeddings
 from .confirmation import evaluate_event
 from .confirms_bench import evaluate
+from utils.utils import split_rules_and_suggestions
 
 calendar_bp = Blueprint("calendar", __name__)
 
@@ -72,24 +73,24 @@ def get_username():
 def generate_rules():
 
     data = request.json
-    
     user_id = data.get("user_id")
-    events = data.get("input", {}).get("events")
+    events = data.get("events")
 
     if not user_id or not events:
         return jsonify({"error": "Missing user_id or events data"}), 400
 
-    username = client.table("users").select("username").eq("id", user_id).execute()
+    username = client.table("users").select("username").eq("email", user_id).execute()
+    print("This is the username")
+    print(username)
     username = username.data[0].get("username")
 
     calendar_name = f"{username}'s Calendar"
 
     calendar_insert = client.table("calendars").insert({
-        "user_id": user_id,
+        # "user_id": user_id,
         "name": calendar_name
     }).execute()
 
-    # print(calendar_insert)
 
     # if calendar_insert.error:
     if not calendar_insert.data:
@@ -138,10 +139,15 @@ def generate_rules():
 
         if not event_insert.data:
             return jsonify({"error": f"Failed to insert event: {event.get('id')}"}), 500
-
+        
+    # split outputted rules into a structured list
+    rules_list = split_rules_and_suggestions(generated_rules)
+    print(rules_list)
+    
     # Step 6: Return the generated rules and the newly created calendar details
     return jsonify({
         "generated_rules": generated_rules,
+        "formatted_rules": rules_list,
         "calendar_id": calendar_id,
         "status": "success"
     }), 201

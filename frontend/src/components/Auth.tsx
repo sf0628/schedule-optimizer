@@ -46,5 +46,5 @@ export function AuthCallback() {
 
     return (
         <div className=""></div>
-    )
-}
+    );
+};

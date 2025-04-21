@@ -12,7 +12,7 @@ function useNavigation() {
         goToDemo: () => navigate(`/demo`),
         goToFeatures: () => navigate(`/features`),
         goToFuture: () => navigate(`/future`),
-        goToStart: (email: string) => navigate(`/start/${email}`),
+        goToStart: () => navigate(`/start`),
         goToLogin: () => navigate(`/login`),
         goToNew: () => navigate(`/new`),
         goToCalendars: () => navigate(`/calendars`),

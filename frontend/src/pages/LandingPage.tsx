@@ -1,14 +1,44 @@
 import StartCard from '../components/StartCard';
+import ConnectCalButton from '../components/ConnectCal';
 import { useState } from 'react';
 import useNavigation from '../hooks/useNavigation';
+import useAuth from '../hooks/useAuth';
 
 function LandingPage() {
   const [ email, setEmail ] = useState<string>("");
-  const { goToStart} = useNavigation();
+  const [ invalidEmail, setInvalidEmail ] = useState<boolean>(false); // false if valid
+  const { goToStart, goToLogin } = useNavigation();
+  const { validateEmail, checkAuthStatus } = useAuth();
 
-  const handleEmailSubmit = () => {
-    console.log("Fake submission works!");
+  const handleConnectUser = async () => {
+    const response = await fetch("http://127.0.0.1:5000/calendar/connect-user", {
+      method: "POST",
+      headers: {
+        "Conect-Type": "application/json",
+      },
+      credentials: "include",
+      body: JSON.stringify({username: email, email: email})
+
+    }).catch(error => {
+      console.log(error);
+    });
   };
+
+  const handleEmailSubmit = async () => {
+    const status = await checkAuthStatus();
+    const emailValidation = validateEmail(email);
+    if (!emailValidation) {
+      setInvalidEmail(true);
+    } else if (status && !invalidEmail) {
+      handleConnectUser();
+      goToStart();
+    } else {
+      handleConnectUser();
+      goToLogin();
+    }
+    console.log("Submission redirected.");
+  };
+  
   return (
     <>
       <div className="flex flex-col justify-start items-center min-h-screen px-10 mh-20">
@@ -19,12 +49,7 @@ function LandingPage() {
             Continue this and make it more interesting. Add more text. Yes even more text. This is an extremely 
             long and interesting paragraph full of everything you ever need in the world.
           </p>
-          <form id='email-start-form' onSubmit={handleEmailSubmit}>
-            <input className='bg-white border-1 border-zinc-300 text-xs p-2 rounded-xs' value={email} placeholder="xyz.example@gmail.com" onChange={e => setEmail(e.target.value)} type="text"/>
-            <button className='font-serif bg-green-800 ml-3 p-2 text-white text-xs rounded-4xl' form='email-start-form' type="submit" onClick={() =>goToStart(email)}>Connect Calendar</button>
-          </form>
-          <label>
-          </label>
+          <ConnectCalButton email={email} setEmail={setEmail} isInvalidEmail={invalidEmail} handleEmailSubmit={handleEmailSubmit} />
         </div>
         <StartCard />
         

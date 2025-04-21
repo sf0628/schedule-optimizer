@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import useAuth from "../hooks/useAuth";
 
 function Header() {
-    const [buttonName, setButtonName] = useState<string>("Sign In");
+    const [ buttonName, setButtonName ] = useState<string>("Sign In");
     const { checkAuthStatus } = useAuth();
     const { goToLanding, goToLogin, goToDemo, goToFeatures, goToFuture } = useNavigation();
     

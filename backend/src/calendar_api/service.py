@@ -1,5 +1,6 @@
 import datetime
 from dateutil.relativedelta import relativedelta
+from dotenv import load_dotenv
 import os.path
 import json
 
@@ -11,19 +12,20 @@ from googleapiclient.errors import HttpError
 
 from utils.utils import get_credentials_path
 
-# this service.py contains all the functionality to interact with the google calendar api
-# SCOPES = [
-#     "https://www.googleapis.com/auth/calendar.events",
-#     "https://www.googleapis.com/auth/calendar",
-#     "https://www.googleapis.com/auth/userinfo.profile",
-#     "https://www.googleapis.com/auth/userinfo.email",
-# ]
+load_dotenv()
 
-SCOPES = "https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar"
+# this service.py contains all the functionality to interact with the google calendar api
+SCOPES = [
+    "https://www.googleapis.com/auth/calendar.events",
+    "https://www.googleapis.com/auth/calendar",
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/userinfo.email",
+]
+
 credentials = get_credentials_path()
 
 # call the calendar api
-def get_service():
+def get_service(type: str, version: str):
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -38,7 +40,7 @@ def get_service():
             with open("token.json", "w") as token:
                 token.write(creds.to_json())
     try:
-        service = build("calendar", "v3", credentials=creds)
+        service = build(type, version, credentials=creds)
         return service
     except HttpError as error:
         print(f"An error occurred: {error}")
@@ -47,7 +49,7 @@ def get_service():
 # creates an event and adds to the calendar
 def create_event(event):
     try: 
-        service = get_service()
+        service = get_service("calendar", "v3")
         event = service.events().insert(calendarId="primary", body=event).execute()
         print(f"Event created {event.get('htmlLink')}")
         return {"success": True, "htmlLink": event.get("htmlLink")}, 200
@@ -57,16 +59,18 @@ def create_event(event):
 # gets all previous events within the past month
 def get_month():
     try:
-        service = get_service()
-        now = datetime.datetime.isoformat() + "Z"  # 'Z' indicates UTC time
+        service = get_service("calendar", "v3")
+        sophiaGcal = os.getenv("SOPHIA_GCAL") # TODO: FIX SO THAT TAKES IN INPUT ID
+        now = datetime.datetime.now().isoformat() + "Z"  # 'Z' indicates UTC time
         month_earlier = (datetime.datetime.now() - relativedelta(months=1)).isoformat() + "Z"
-        print(now, month_earlier)
+        print(now)
+        print(month_earlier)
         print("Getting all events from the previous month")
         # change to get 50 the most previous events
         events_result = (
             service.events()
             .list(
-                calendarId="primary",
+                calendarId=sophiaGcal, # primary
                 singleEvents=True,
                 orderBy="startTime",
                 timeMax=now,
@@ -86,10 +90,11 @@ def get_month():
             start = event["start"].get("dateTime", event["start"].get("date"))
             end = event["start"].get("dateTime", event["start"].get("date"))
             return_events.append({
+                
                 "htmlLink": event.get("htmlLink"),
                 "id": event.get("id"),
-                "summary": event.get("summary"),
-                "location": event.get("description"),
+                "description": event.get("description"),
+                "location": event.get("location"),
                 "start": start,
                 "end": end,
                 "status": event.get("status"),

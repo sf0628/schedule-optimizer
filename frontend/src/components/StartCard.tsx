@@ -4,11 +4,18 @@ import TypingText from "./TypingText";
 import clipIcon from "../assets/icons/paperclip.svg";
 import calendarJSON from "../assets/data/landing-page.json";
 
+type GeneratedRulesData = {
+    generated_rules: string[];
+    calendar_id: number;
+    status: boolean;
+};
+
 function StartCard() {
     const { goToStart } = useNavigation();
     const [ placeholder, setPlaceHolder ] = useState<string>("");
     const [ calendar, setCalendar ] = useState<string>("");
     const [ suggestions, setSuggestions ] = useState<boolean>(true);
+    const [ rules, setRules ] = useState<GeneratedRulesData | undefined>(undefined);
 
     const handleOnClickSuggestions = () => {
         setSuggestions(true);
@@ -21,6 +28,7 @@ function StartCard() {
     useEffect(() => {
         const prettyJSON = JSON.stringify(calendarJSON, null, 2);
         setPlaceHolder(prettyJSON);
+
     }, []);
 
     return (
@@ -55,7 +63,7 @@ function StartCard() {
 
                 </>
             }
-            <button className= "font-serif hover:font-bold hover:text-green-900" onClick={ goToStart }>Start optimizing with AI. </button>
+            <button className= "font-serif hover:font-bold hover:text-green-900" onClick={ () => goToStart }>Start optimizing with AI. </button>
 
         </div>
     )

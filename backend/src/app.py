@@ -21,6 +21,13 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
 
+    # Additional session settings for cookies
+    app.config.update(
+        SESSION_COOKIE_SECURE=False,  # Set to True in production with HTTPS
+        SESSION_COOKIE_HTTPONLY=True,
+        SESSION_COOKIE_SAMESITE='Lax'
+    )
+
     # disable insecure transport error
     os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
@@ -42,11 +49,16 @@ def create_app(test_config=None):
         pass
 
     # Enable CORS
-    CORS(app, 
-         supports_credentials=True, 
-         resources={r"/*": {"origins": "http://localhost:5173"}}, # Enable credentials for session cookies
-         allow_headers=["Content-Type", "Authorization"],
-        ) 
+    # Enable credentials for session cookies
+    CORS(app,
+        resources={r"/*": {
+             "origins": ["http://localhost:5173", "http://127.0.0.1:5000"],
+            #  "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+             "allow_headers": ["Content-Type", "Authorization"],
+            #  "expose_headers": ["Access-Control-Allow-Credentials"]
+        }},
+        supports_credentials=True
+    )
 
     # Register Blueprints
     app.register_blueprint(auth_bp, url_prefix="/auth")
@@ -60,7 +72,7 @@ def create_app(test_config=None):
     @app.errorhandler(500)
     def server_error(e):
         return jsonify({"error": "Server error"}), 500
-
+    
     return app
 
 # This allows running the app with `flask run`
