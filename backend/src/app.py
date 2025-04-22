@@ -7,7 +7,6 @@ from datetime import timedelta
 from calendar_api.routes import calendar_bp
 from dotenv import load_dotenv
 
-
 def create_app(test_config=None):
     load_dotenv()
     app = Flask(__name__, instance_relative_config=True)

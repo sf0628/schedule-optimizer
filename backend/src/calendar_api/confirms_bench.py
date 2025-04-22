@@ -53,7 +53,7 @@ def confirm_event(user_query):
             rules_embedding=rules_embedding,
             event_embedding=event_embedding,
             current_rule_id=rule_id,
-            current_rule_text=rules_text
+            current_rule_text=rules_text,
         )
         print(result)
         decision =  "accept" if result["decision"] else "reject"

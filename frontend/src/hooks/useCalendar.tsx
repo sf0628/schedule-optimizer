@@ -13,14 +13,8 @@ function useCalendar() {
         }
     };
 
-    // TODO: separate rules and suggestions 
-    const parseRules = (rulesString: string) => {
-        
-    };
-
     return {
         generateRules,
-        parseRules,
     };
 };
 

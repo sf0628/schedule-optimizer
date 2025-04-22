@@ -13,13 +13,14 @@ import FeaturesPage from './pages/FeaturesPage.tsx';
 import FuturePage from './pages/FuturePage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
 import CalendarPage from './pages/CalendarPage.tsx';
+
 // https://feathericons.com/
 function Layout() {
 
   return (
-    <div className="flex flex-col justify-between items-center min-h-screen bg-orange-50 px-10">
+    <div className="flex flex-col min-h-screen justify-center items-center bg-orange-50 px-10">
       <Header />
-      <main className='pt-16 overflow-hidden m-auto'>
+      <main className='flex-grow flex items-center justify-center px-10 pt-16 overflow-hidden'>
         <Outlet />
       </main>
       <Footer />
@@ -53,15 +54,16 @@ const router = createBrowserRouter([
         element: <LoginPage />
       },
       {
+        path: '/start',
+        element: <StartPage />
+      },
+      {
         path: '/oauth/authorize',
         element: <AuthCallback />
       }
     ],
   },
-  {
-    path: '/start',
-    element: <StartPage />
-  },
+
   {
     path: '/calendars/:calendarId',
     element: <CalendarPage />

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GoogleCalendar from '../components/GoogleCalendar';
+import { EventData } from './StartPage';
 
 // Google API interfaces
 interface GoogleCalendarEvent {
